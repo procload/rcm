@@ -1,2 +1,0 @@
-# ryan.cm
-Ryan.cm

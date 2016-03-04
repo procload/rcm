@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>RCM</title>
+  <subtitle>RCM</subtitle>
+  <id>http://ryan.cm</id>
+  <link href="http://ryan.cm"/>
+  <link href="http://ryan.cm/feed.xml" rel="self"/>
+  <author>
+    <name>Food52</name>
+  </author>
+</feed>
