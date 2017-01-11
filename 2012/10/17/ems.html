@@ -1,0 +1,166 @@
+
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Ryan Clark Merrill</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Meta Data -->
+  <meta name="author" content="Ryan Clark Merrill">
+  <meta name="Description" content="I am a hungry designer and developer working and living in Cincinnati, Ohio. I like my friends old, my music loud and my work tough.">
+  <meta name="google-site-verification" content="QjVRDPMPKFZY1BGtQnwqrQ3J-wFck8wJUaq8MoqzilA" />
+  <meta name="Copyright" content="Ryan Clark Merrill 2011-2017. All Rights Reserved.">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
+  <!-- Opengraph Data -->
+  <meta property="og:title" content="Ryan Clark Merrill"/>
+  <meta property="og:type" content="blog"/>
+  <meta property="og:url" content="http://www.ryanmerrill.net/"/>
+  <meta property="og:image" content=""/>
+  <meta property="og:site_name" content="Ryan Clark Merrill"/>
+  <meta property="og:description" content="I am a hungry designer and developer working and living in Cincinnati, Ohio. I like my friends old, my music loud and my work tough."/>
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../../../apple-touch-icon.png?v=8jebEpyaEe">
+  <link rel="icon" type="image/png" href="../../../favicon-32x32.png?v=8jebEpyaEe" sizes="32x32">
+  <link rel="icon" type="image/png" href="../../../favicon-16x16.png?v=8jebEpyaEe" sizes="16x16">
+  <link rel="manifest" href="../../../manifest.json?v=8jebEpyaEe">
+  <link rel="mask-icon" href="../../../safari-pinned-tab.svg?v=8jebEpyaEe" color="#6aa7cf">
+  <link rel="shortcut icon" href="/favicon.ico?v=8jebEpyaEe">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+
+  <script src="https://use.typekit.net/ekl6yta.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+  <!-- Load pretty print for code snippets -->
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
+  <link href="../../../stylesheets/application.css" rel="stylesheet" />
+
+</head>
+<body class="x2012 x2012_10 x2012_10_17 x2012_10_17_ems writing">
+  <header class="site-header">
+    <nav class="site-nav">
+      <ul>
+        <li>
+          <a href="/" title="Home">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 185.66"><defs><style>.cls-1{fill:none;clip-rule:evenodd;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#010101;}</style><clipPath id="clip-path"><path class="cls-1" d="M98.8 49a4.2 4.2 0 0 1 .7 4.8l-60.2 129a5 5 0 0 1-4.7 3 9.4 9.4 0 0 1-1.6-.4 4.8 4.8 0 0 1-2.8-2 4.2 4.2 0 0 1-.5-3.4l22-90.2L6.4 101a6 6 0 0 1-1.4.2 5.2 5.2 0 0 1-3.4-1.2A4.2 4.2 0 0 1 0 95.6l22.6-92A4.8 4.8 0 0 1 24.3 1a5 5 0 0 1 3-1h36.8a5 5 0 0 1 3.6 1.4A4.4 4.4 0 0 1 69 4.7a4.6 4.6 0 0 1-.5 2l-19 51.6 44-11a6 6 0 0 1 1.5 0 5.2 5.2 0 0 1 3.8 1.6z"/></clipPath></defs><title>Artboard 1</title><path class="cls-2 cls-3" d="M-.6-.6h101v186.8H-.5z"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="/work" title="Work" class="">Work</a>
+        </li>
+        <li>
+          <a href="/writing" title="Writing" class="">Writing</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- /site-header -->
+
+  <main class="main-content">
+      <article>
+    <header>
+      <h1>Sizing Text in Pixels, Ems or Rems &mdash; What's Correct?</h1>
+    </header>
+
+    <div class="article-body">
+      <p>There's been a number of discussions at <a href="http://helloample.com">Ample</a> lately about whether or not using ems for text sizing is worth the headache. As the one who maintains Ample's baseline getting-started repo, I figured it's up to me to figure out what's what.</p>
+
+<p>A routine argument against ems is that they over complicate something so basic such as setting the size of type. So why do we even need ems? Why can't we just size everything in pixels?</p>
+
+<p>One case for using ems was given 6 years ago by Richard Rutter in <a href="http://www.alistapart.com/articles/howtosizetextincss">this article for A List Apart</a>:
+&gt; Sizing text and line-height in ems, with a percentage specified on the body, was shown to provide accurate, resizable text across all browsers in common use today. </p>
+
+<p>But his tests were based on many browsers that have since become obsolete, save for IE7 which currently has a piddly 1.3% user base. His main argument for using ems was to allow users to "resize text without being forced to use the zoom control." But if 1.3% of the public has to rely on the zoom control, that's cool, right?</p>
+
+<h3 id="the-pixels-have-it">The pixels have it?</h3>
+<p>So we can forget the em, right? Well, not exactly. From what I can gather, the advantage of using ems over pixels for text sizing is to accommodate users who specifically set their browser's text size to larger than the default. And while I'm no expert on the matter, I assume users with a vision impairment go this route as opposed to using the browser's zoom functionality. Setting the text size in a browser's settings panel is a one-time thing, while a user needs to zoom on each individual site or page in order to increase the size.</p>
+
+<p>Another advantage of increasing text size instead of page zooming is the other non-text elements, such as a site's logo, maintain their original size. Page zooming also increases the likelihood of a horizontal scrollbar, which reduces the ability to scan a page.</p>
+
+<p>I couldn't find any hard facts as to which route low vision users typically take, but I'd love to hear from someone on this.</p>
+
+<h3 id="so-lets-use-ems">So let's use ems</h3>
+<p>Because ems are relative, we always need to be aware of how deep in the HTML and CSS we're descending so the browser renders our desired results. Published 8 years ago, Richard Rutter wrote a <a href="http://clagnut.com/blog/348/">great overview on how to calculate your desired text size in ems</a>:
+&gt; When sizing text in ems there’s really one rule to remember: size text relative to its parent and use this simple calculation to do so: child pixels / parent pixels = child ems</p>
+
+<p>This was wildly confusing the first time I used it. It was another thing to remember and, honestly, wasn't there enough to remember already?</p>
+
+<p>At Ample we use a simple SCSS mixin to reduce the confusion and to calculate the em value for us:</p>
+
+<pre class="prettyprint css">
+@function calc-em($target-px, $context) {
+  @return ($target-px / $context) * 1em;
+}
+</pre>
+
+<p>The <a href="http://thesassway.com/intermediate/responsive-web-design-part-1">above code is taken from The SASS Way</a> and allows us to think in pixels rather than ems. Of course you still need to be aware of your context and the text size of an element's parent.</p>
+
+<h3 id="the-ems-have-it-or-do-they">The Ems Have it! Or do they?</h3>
+<p>So what we're left with is using ems is the responsible way to set type on the web. But with the advent of CSS3 and the rem unit, it looks like we're going to soon get the best of both worlds.</p>
+
+<p>The rem does away with having to set type size relative to its parent element by adjusting the text size relative to the root element of the page, often the HTML tag. <a href="http://snook.ca/archives/html_and_css/font-size-with-rem">Jonathan Snook does a good job explaining this</a>:
+&gt; The rem unit is relative to the root—or the html—element. That means that we can define a single font size on the html element and define all rem units to be a percentage of that.</p>
+
+<p>Unfortunately we're stuck with lack of support for IE7 and IE8, both of which we begrudgingly support. An option Snook proposes is to create two sets of type sizes, one in rems and the other in pixels to support older browsers. This of course doesn't solve the problem of page zooming vs. text resizing, but we have to draw the line somewhere don't we? </p>
+
+<p>Well, maybe. </p>
+
+<p>The guys at Sparkbox <a href="http://seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback">wrote about a SCSS mixin</a> they are using to use rems and to provide an accessible fallback for older browsers.</p>
+
+<pre class="prettyprint css">
+// Mixin
+@mixin font-size( $decimal-size, $keyword: null ) {
+	@if $keyword{ font-size: $keyword; }
+	@else { font-size: $decimal-size * $base-font-multiplier * 16px;}
+	font-size: $decimal-size * 1rem;
+}
+
+// Example use case
+html {
+	@include font-size(1, large);
+}
+</pre>
+
+<p>You can read the whole article for their thinking behind the mixin, but in short it uses font-size keywords to provide support for browsers that cannot support the rem.</p>
+
+<p>So what are we going to do? We're going to stick with the em as a unit for resizing type until the share of browsers not supporting the rem is small enough declare obsolete. I'm not fond of the lack of granular control for older browsers that Sparkbox's mixin provides. Plus I'm not sure how they account for margin, padding and line-height.</p>
+
+<p>I think the accessibility benefits of using ems for type size outweigh any headaches associated with them.</p>
+
+    </div>
+    <!-- /article-body -->
+
+    <footer class="article-footer">
+      <time class="published updated" pubdate="" datetime="12-10-17 09:00:00 +0000">Wednesday, October 17, 2012</time>
+    </footer>
+  </article>
+
+  </main><!-- /main-content -->
+
+  <footer class="site-footer">
+    <section class="footer-content">
+    </section><!-- /footer-content -->
+  </footer><!-- /site-footer -->
+
+  <!-- Asynchronous Google Analytics snippet. -->
+  <script>
+    var _gaq=[['_setAccount','UA-8516683-1'],['_trackPageview'],['_trackPageLoadTime']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+</body>
+</html>

@@ -5,7 +5,231 @@
   <id>http://ryan.cm</id>
   <link href="http://ryan.cm"/>
   <link href="http://ryan.cm/feed.xml" rel="self"/>
+  <updated>2016-03-01T11:21:00-05:00</updated>
   <author>
     <name>Food52</name>
   </author>
+  <entry>
+    <title>Where's the Class Go?</title>
+    <link rel="alternate" href="http://ryan.cm/2016/03/01/anchor.html"/>
+    <id>http://ryan.cm/2016/03/01/anchor.html</id>
+    <published>2016-03-01T11:21:00-05:00</published>
+    <updated>2016-11-14T15:42:29-05:00</updated>
+    <author>
+      <name>RCM</name>
+    </author>
+    <content type="html">&lt;p&gt;There was a debate at work the other day concerning where to place a class on a given snippet of HTML. The HTML was used to markup a linked profile photo and the disagreement was whether or not to place the class on the anchor or the image tag. The markup is:&lt;/p&gt;
+
+&lt;pre class="prettyprint lang-html"&gt;
+div class="nr-comment-reply"
+  a href="#"
+    img src="http://placehold.it/100/100"
+  /a
+/div
+&lt;/pre&gt;
+
+&lt;p&gt;The CSS is:&lt;/p&gt;
+
+&lt;pre class="prettyprint lang-css"&gt;
+.c-avatar {
+  display: block;
+  float: left;
+  border-radius: 19px;
+  width: 38px;
+  height: 38px;
+}
+&lt;/pre&gt;
+
+&lt;p&gt;Since the avatar link and image combo is floated to the left, placing the class on the image removes the anchor element from the DOM. This wouldn’t appear to be a problem if you were fine removing focus on the entire element when tabbing through the page. For example: &lt;a href="http://cl.ly/fFwI"&gt;http://cl.ly/fFwI&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The benefit of placing the CSS class on the anchor element is it keeps tab focus on the entire element as seen here: &lt;a href="http://cl.ly/fFxh"&gt;http://cl.ly/fFxh&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Long story short: Put the class on the anchor tag if you care about tab focus.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Design Cheating</title>
+    <link rel="alternate" href="http://ryan.cm/2016/02/26/cheat.html"/>
+    <id>http://ryan.cm/2016/02/26/cheat.html</id>
+    <published>2016-02-26T16:41:00-05:00</published>
+    <updated>2016-11-14T15:42:29-05:00</updated>
+    <author>
+      <name>RCM</name>
+    </author>
+    <content type="html">&lt;p&gt;When designing the upcoming (Not)Recipes app for Food52, I often find myself searching for solutions that other apps have figured out previously and working to combine those into our app. At first I felt guilty of not innovating or becoming too mundane, but a recent quote from an &lt;a href="https://www.quora.com/profile/Wilson-Miner/session/95/?__snids__=1578084650&amp;amp;__nsrc__=4"&gt;interview with Wilson Miner&lt;/a&gt; helped assuage my fears:
+&amp;gt; I think I overvalue "boring" design solutions relative to most other designers. And I don't mean I value simple solutions – I think that's pretty common – I mean boring: unexciting, nondescript, dull. I usually gravitate to and in teams often end up championing the most mundane solutions.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;One of my favorite quotes about design is attributed to Charles Eames: "Innovate as a last resort. More horrors are done in the name of innovation than any other."&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I think it's natural as designers to feel like reusing an existing solution is somehow cheating or more likely just a missed opportunity to show our skill. But in my experience the more "innovative" solution often brings more value to the designer than it does to the product or the end-user.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There is nothing more satisfying to me on a project than finding a fitting solution to a problem just lying around, integrating it as seamlessly as possible, and getting zero credit for it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The whole &lt;a href="https://www.quora.com/profile/Wilson-Miner/session/95/?__snids__=1578084650&amp;amp;__nsrc__=4"&gt;QA on Quora&lt;/a&gt; is worth a read.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Custom Launch Screen for iOS</title>
+    <link rel="alternate" href="http://ryan.cm/2016/02/25/launchscreen.html"/>
+    <id>http://ryan.cm/2016/02/25/launchscreen.html</id>
+    <published>2016-02-25T11:13:00-05:00</published>
+    <updated>2016-11-14T15:42:29-05:00</updated>
+    <author>
+      <name>RCM</name>
+    </author>
+    <content type="html">&lt;p&gt;As we get closer to launching the &lt;a href="https://app.food52.com/"&gt;(Not)Recipes&lt;/a&gt; app at Food52 there are a bunch of small details that need to be ironed out. One of these details is the launch screen that users first encounter when launching the app.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/LaunchImages.html"&gt;According to Apple&lt;/a&gt;, the launch screen should be something that fits this description:
+&amp;gt; Remember, the launch image doesn’t provide you with an opportunity for artistic expression. It’s solely intended to enhance the user’s perception of your app as quick to launch and immediately ready for use.&lt;/p&gt;
+
+&lt;p&gt;This means we should have an empty launch screen only showing the basic UI such as the tab bar and its icons and the nav bar. In our case it looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Launch Screen" src="/images/2016/02/25/blank.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The easiest way to do this is to create a LaunchScreen.storyboard file by going to:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Launch Adding" src="/images/2016/02/25/launch_adding.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;After that you’ll need to set the launch screen in the project settings here:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Launch Settings" src="/images/2016/02/25/launch_settings.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Following that it’s just a matter of adding a few dummy UI elements to the storyboard. Since we have a tab bar in our app, we added an empty tab bar and its items to the launch screen storyboard:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Tab bar" src="/images/2016/02/25/tabbar.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;We also adjusted the height of the navigation bar to reflect what it will look like on launch. Remember to set the Auto Layout constraints on both the tab bar and nav bar in order to keep things looking good on all device sizes.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Custom collections with Middleman</title>
+    <link rel="alternate" href="http://ryan.cm/2014/07/25/custom-collections.html"/>
+    <id>http://ryan.cm/2014/07/25/custom-collections.html</id>
+    <published>2014-07-25T17:10:00-04:00</published>
+    <updated>2016-11-14T15:42:29-05:00</updated>
+    <author>
+      <name>RCM</name>
+    </author>
+    <content type="html">&lt;p&gt;This site is based on the static-site generator Middleman, which has served
+me well over the years.&lt;/p&gt;
+
+&lt;p&gt;I had the opportunity to work on creating a blog that needed navigation to be built
+using dynamic category names defined by an author when creating a new post. The category name
+is stored in the article's front matter like so:&lt;/p&gt;
+
+&lt;pre class="prettyprint ruby"&gt;
+---
+title: My Second Test
+date: 2014-07-25 20:16 UTC
+category: design
+author: Ryan Merrill
+tags: development, programming, swift
+summary: This is the summary
+---
+&lt;/pre&gt;
+
+&lt;p&gt;Middleman's blog extension comes built with tagging ability, but didn't offer support for categories.
+Fortunately you can create custom collections easily:&lt;/p&gt;
+
+&lt;pre class="prettyprint ruby"&gt;
+activate :blog do |blog|
+  blog.custom_collections = {
+    category: {
+      link: '/categories/{category}.html',
+      template: '/category.html'
+    }
+  }
+end
+&lt;/pre&gt;
+
+&lt;p&gt;After that, I needed to find all of the categories defined by the author to build the navigation. A handy
+helper method fixed that:&lt;/p&gt;
+
+&lt;pre class="prettyprint ruby"&gt;
+  def build_categories(articles)
+    categories = []
+    articles.each do |article|
+      category = article.metadata[:page]['category']
+      categories.push(category) unless categories.include? category
+    end
+    return categories
+  end
+&lt;/pre&gt;
+
+&lt;p&gt;It was just a matter of passing the blog's articles to the helper to finish building the site's navigation.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Learning and Writing Swift</title>
+    <link rel="alternate" href="http://ryan.cm/2014/06/09/learning-swift.html"/>
+    <id>http://ryan.cm/2014/06/09/learning-swift.html</id>
+    <published>2014-06-09T15:28:00-04:00</published>
+    <updated>2016-11-14T15:42:29-05:00</updated>
+    <author>
+      <name>RCM</name>
+    </author>
+    <content type="html">&lt;p&gt;There’s no doubt to be a glut of want-to-be iOS developers clamoring for resources to learn Swift after Apple’s announcement of the language last week at WWDC. Count me among them.&lt;/p&gt;
+
+&lt;p&gt;As someone who for years wanted to dip their toes into the waters of iOS development, the time doesn’t seem better than now to give it a go. I compiled the best Swift-language resources I’ve found below.&lt;/p&gt;
+
+&lt;h3 id="sample-apps"&gt;Sample Apps&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/fullstackio/FlappySwift"&gt;FlappySwift - FlappyBird in Swift&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/mslathrop/SwiftNote"&gt;SwiftNote - Simple note taking app with today widget and iCloud syncing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="official-apple-resources"&gt;Official Apple Resources&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://itunes.apple.com/us/book/swift-programming-language/id881256329"&gt;Swift iBook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/LandingPage/index.html#//apple_ref/doc/uid/TP40014345"&gt;Welcome to Swift&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="people-who-talk-about-swift"&gt;People who talk about Swift&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/clattner_llvm"&gt;Chris Lattner&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="apple-nda-demos-linked-on-github"&gt;Apple NDA Demos linked on Github&lt;/h3&gt;
+&lt;p&gt;I’m not sure whether or not these demos fall under an NDA restriction or not, but I found them on Github so grab them while you can.
+* &lt;a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/ListerAProductivityAppBuiltinSwift"&gt;Lister: A Productivity App Built in Swift&lt;/a&gt;
+* &lt;a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/UICatalogCreatingandCustomizingUIKitControlsinSwift"&gt;UICatalog: Creating and Customizing UIKit Controls in Swift&lt;/a&gt;
+* &lt;a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/AdventureBuildingaSpriteKitgameusingSwift"&gt;Adventure: Building a SpriteKit Game Using Swift&lt;/a&gt;
+* &lt;a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/GestureRecognizersUsingstandardUIGestureRecognizers"&gt;GestureRecognizers: Using standard UIGestureRecognizers in Swift&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="misc-resources"&gt;Misc. Resources&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://chares.ghost.io/lets-make-a-swift-app/"&gt;Lets Make a Swift App&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.weheartswift.com/"&gt;We Heart Swift&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://jamesonquave.com/blog/developing-ios-apps-using-swift-tutorial/"&gt;Developing iOS Apps Using Swift Tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.learnswift.tips/"&gt;Learn Swift - A curated list of helpful resources to learn Swift.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/grant/swift-cheat-sheet"&gt;Swift Cheat Sheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://stackoverflow.com/questions/tagged/swift-language"&gt;Stackoverflow’s Swift Questions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>NYTimes Compendium</title>
+    <link rel="alternate" href="http://ryan.cm/2012/12/10/collections.html"/>
+    <id>http://ryan.cm/2012/12/10/collections.html</id>
+    <published>2012-12-10T05:20:00-05:00</published>
+    <updated>2016-11-14T15:42:29-05:00</updated>
+    <author>
+      <name>RCM</name>
+    </author>
+    <content type="html">&lt;p&gt;I love &lt;a href="http://nytimes.com/compendium/about/?pagewanted=all"&gt;this idea&lt;/a&gt; from the New York Times:
+&amp;gt;	Compendium invites readers of The New York Times like you to use articles, imagery, videos, and quotations to tell your own stories using New York Times content. Each collection has a description that you can use to introduce the collection as a whole, and each item in your collection has a place for you to describe what was important, interesting, or funny about it. Once created, you can share your collection or link to it from anywhere. Compendium is also a great place to discover and explore interesting stories through a wide variety of collections created by our readers, editors, and reporters.&lt;/p&gt;
+
+&lt;p&gt;It reminds me a lot of Evan Williams' &lt;a href="https://medium.com/"&gt;Medium&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;On a related note, I notice myself getting a lot more useful and interesting content through other sources than RSS and Twitter these days, notably through email newsletters, &lt;a href="http://readlists.com/"&gt;Readability's Readlists&lt;/a&gt;, and collections like Compendium and Medium. Definitely something going on here.&lt;/p&gt;
+</content>
+  </entry>
 </feed>
