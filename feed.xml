@@ -5,16 +5,53 @@
   <id>http://ryan.cm</id>
   <link href="http://ryan.cm"/>
   <link href="http://ryan.cm/feed.xml" rel="self"/>
-  <updated>2016-03-01T11:21:00-05:00</updated>
+  <updated>2016-05-17T12:21:00-04:00</updated>
   <author>
     <name>Food52</name>
   </author>
+  <entry>
+    <title>Tips for Remote Work</title>
+    <link rel="alternate" href="http://ryan.cm/2016/05/17/remote.html"/>
+    <id>http://ryan.cm/2016/05/17/remote.html</id>
+    <published>2016-05-17T12:21:00-04:00</published>
+    <updated>2017-05-18T14:59:12-04:00</updated>
+    <author>
+      <name>RCM</name>
+    </author>
+    <content type="html">&lt;p&gt;I recently took a job at &lt;a href="http://8451.com/"&gt;84.51°&lt;/a&gt;, which means I'm no longer working remotely. The three years I did at &lt;a href="http://food52.com"&gt;Food52&lt;/a&gt; were great, but it was time for a change. I wrote-up some notes about how to help make things easier when working remotely.&lt;/p&gt;
+
+&lt;p&gt;Communication is key. I would err on the side of over communicating anything than not. The only times I  regretted working remote was when I felt out of the loop. There were a number of strategies my team took to keep remote employees happy and engaged.&lt;/p&gt;
+
+&lt;h2 id="slack-or-something"&gt;Slack or something&lt;/h2&gt;
+&lt;p&gt;The team needs to feel included in daily activity and as a part of the company culture. One thing that went a far way for me was using Slack on a daily basis with the rest of the company. Despite being only 1 of 8 remote employees in a 70-person company, I often felt connected because using Slack was part of the company's culture even for those in the office.&lt;/p&gt;
+
+&lt;p&gt;Slack had a great feature that allowed a user to quickly hop on a video or audio call to hash out a problem and to stay connected.&lt;/p&gt;
+
+&lt;h2 id="daily-standup"&gt;Daily Standup&lt;/h2&gt;
+&lt;p&gt;We created a daily standup channel for our team in Slack and each day the employees (remote or not) would write their top 3 tasks they were working on that day plus any blockers. It helped the remote employees stay in sync with the rest of the team.&lt;/p&gt;
+
+&lt;h2 id="weekly-meetings"&gt;Weekly Meetings&lt;/h2&gt;
+&lt;p&gt;We had weekly team meetings to discuss larger topics and projects the entire team was working on and if we had any blockers or anything else that would prevent us from getting our work done.&lt;/p&gt;
+
+&lt;p&gt;We tried to schedule all of our meetings on Mondays so they would be out of the way for the rest of the week.&lt;/p&gt;
+
+&lt;p&gt;I also had weekly 1:1s with my manager over Skype or Slack video. it was important for me to have these and them not be skipped because I sometimes felt out of the loop regarding what was going on at the compnay.&lt;/p&gt;
+
+&lt;h2 id="regular-trips-to-the-office"&gt;Regular Trips to the Office&lt;/h2&gt;
+&lt;p&gt;Since my company was based in NYC, it wasn't easy to get face time with other employees but we made an effort to fly in the remote team to the office every 6 weeks for an entire week. This was usually coupled by a few team dinners or happy hours, which helped bridge the gap between office and remote employee.&lt;/p&gt;
+
+&lt;p&gt;I often found myself being the most motivated and getting the most done the week following a trip to NYC.&lt;/p&gt;
+
+&lt;h2 id="in-office-meetings"&gt;In Office Meetings&lt;/h2&gt;
+&lt;p&gt;It was easy for the team to fall into a trap of excluding remote workers from meetings or ignoring them when they are in a meeting. A big part of embracing a remote employee is to make sure they have a voice during a meeting and to keep them in mind when scheduling something.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Where's the Class Go?</title>
     <link rel="alternate" href="http://ryan.cm/2016/03/01/anchor.html"/>
     <id>http://ryan.cm/2016/03/01/anchor.html</id>
     <published>2016-03-01T11:21:00-05:00</published>
-    <updated>2017-02-06T19:57:13-05:00</updated>
+    <updated>2017-05-18T14:53:59-04:00</updated>
     <author>
       <name>RCM</name>
     </author>
@@ -52,7 +89,7 @@ div class="nr-comment-reply"
     <link rel="alternate" href="http://ryan.cm/2016/02/26/cheat.html"/>
     <id>http://ryan.cm/2016/02/26/cheat.html</id>
     <published>2016-02-26T16:41:00-05:00</published>
-    <updated>2016-11-14T15:42:29-05:00</updated>
+    <updated>2017-05-18T14:53:59-04:00</updated>
     <author>
       <name>RCM</name>
     </author>
@@ -80,7 +117,7 @@ div class="nr-comment-reply"
     <link rel="alternate" href="http://ryan.cm/2016/02/25/launchscreen.html"/>
     <id>http://ryan.cm/2016/02/25/launchscreen.html</id>
     <published>2016-02-25T11:13:00-05:00</published>
-    <updated>2017-01-31T15:31:43-05:00</updated>
+    <updated>2017-05-18T14:53:59-04:00</updated>
     <author>
       <name>RCM</name>
     </author>
@@ -113,7 +150,7 @@ div class="nr-comment-reply"
     <link rel="alternate" href="http://ryan.cm/2014/07/25/custom-collections.html"/>
     <id>http://ryan.cm/2014/07/25/custom-collections.html</id>
     <published>2014-07-25T17:10:00-04:00</published>
-    <updated>2016-11-14T15:42:29-05:00</updated>
+    <updated>2017-05-18T14:53:59-04:00</updated>
     <author>
       <name>RCM</name>
     </author>
@@ -171,7 +208,7 @@ helper method fixed that:&lt;/p&gt;
     <link rel="alternate" href="http://ryan.cm/2014/06/09/learning-swift.html"/>
     <id>http://ryan.cm/2014/06/09/learning-swift.html</id>
     <published>2014-06-09T15:28:00-04:00</published>
-    <updated>2016-11-14T15:42:29-05:00</updated>
+    <updated>2017-05-18T14:53:59-04:00</updated>
     <author>
       <name>RCM</name>
     </author>
@@ -213,23 +250,6 @@ helper method fixed that:&lt;/p&gt;
   &lt;li&gt;&lt;a href="http://stackoverflow.com/questions/tagged/swift-language"&gt;Stackoverflow’s Swift Questions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>NYTimes Compendium</title>
-    <link rel="alternate" href="http://ryan.cm/2012/12/10/collections.html"/>
-    <id>http://ryan.cm/2012/12/10/collections.html</id>
-    <published>2012-12-10T05:20:00-05:00</published>
-    <updated>2016-11-14T15:42:29-05:00</updated>
-    <author>
-      <name>RCM</name>
-    </author>
-    <content type="html">&lt;p&gt;I love &lt;a href="http://nytimes.com/compendium/about/?pagewanted=all"&gt;this idea&lt;/a&gt; from the New York Times:
-&amp;gt;	Compendium invites readers of The New York Times like you to use articles, imagery, videos, and quotations to tell your own stories using New York Times content. Each collection has a description that you can use to introduce the collection as a whole, and each item in your collection has a place for you to describe what was important, interesting, or funny about it. Once created, you can share your collection or link to it from anywhere. Compendium is also a great place to discover and explore interesting stories through a wide variety of collections created by our readers, editors, and reporters.&lt;/p&gt;
-
-&lt;p&gt;It reminds me a lot of Evan Williams' &lt;a href="https://medium.com/"&gt;Medium&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;On a related note, I notice myself getting a lot more useful and interesting content through other sources than RSS and Twitter these days, notably through email newsletters, &lt;a href="http://readlists.com/"&gt;Readability's Readlists&lt;/a&gt;, and collections like Compendium and Medium. Definitely something going on here.&lt;/p&gt;
 </content>
   </entry>
 </feed>
