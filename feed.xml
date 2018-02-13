@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>RCM</title>
   <subtitle>RCM</subtitle>
-  <id>http://ryan.cm</id>
-  <link href="http://ryan.cm"/>
-  <link href="http://ryan.cm/feed.xml" rel="self"/>
+  <id>http://ryanmerrill.net/</id>
+  <link href="http://ryanmerrill.net/"/>
+  <link href="http://ryanmerrill.net/feed.xml" rel="self"/>
   <updated>2017-05-17T12:21:00-04:00</updated>
   <author>
-    <name>Food52</name>
+    <name>Ryan Merrill</name>
   </author>
   <entry>
     <title>Tips for Remote Work</title>
-    <link rel="alternate" href="http://ryan.cm/2017/05/17/remote.html"/>
-    <id>http://ryan.cm/2017/05/17/remote.html</id>
+    <link rel="alternate" href="http://ryanmerrill.net/2017/05/17/remote.html"/>
+    <id>http://ryanmerrill.net/2017/05/17/remote.html</id>
     <published>2017-05-17T12:21:00-04:00</published>
     <updated>2017-05-18T15:05:29-04:00</updated>
     <author>
@@ -48,8 +48,8 @@
   </entry>
   <entry>
     <title>Where's the Class Go?</title>
-    <link rel="alternate" href="http://ryan.cm/2016/03/01/anchor.html"/>
-    <id>http://ryan.cm/2016/03/01/anchor.html</id>
+    <link rel="alternate" href="http://ryanmerrill.net/2016/03/01/anchor.html"/>
+    <id>http://ryanmerrill.net/2016/03/01/anchor.html</id>
     <published>2016-03-01T11:21:00-05:00</published>
     <updated>2017-05-18T14:53:59-04:00</updated>
     <author>
@@ -86,8 +86,8 @@ div class="nr-comment-reply"
   </entry>
   <entry>
     <title>Design Cheating</title>
-    <link rel="alternate" href="http://ryan.cm/2016/02/26/cheat.html"/>
-    <id>http://ryan.cm/2016/02/26/cheat.html</id>
+    <link rel="alternate" href="http://ryanmerrill.net/2016/02/26/cheat.html"/>
+    <id>http://ryanmerrill.net/2016/02/26/cheat.html</id>
     <published>2016-02-26T16:41:00-05:00</published>
     <updated>2017-05-18T14:53:59-04:00</updated>
     <author>
@@ -114,8 +114,8 @@ div class="nr-comment-reply"
   </entry>
   <entry>
     <title>Custom Launch Screen for iOS</title>
-    <link rel="alternate" href="http://ryan.cm/2016/02/25/launchscreen.html"/>
-    <id>http://ryan.cm/2016/02/25/launchscreen.html</id>
+    <link rel="alternate" href="http://ryanmerrill.net/2016/02/25/launchscreen.html"/>
+    <id>http://ryanmerrill.net/2016/02/25/launchscreen.html</id>
     <published>2016-02-25T11:13:00-05:00</published>
     <updated>2017-05-18T14:53:59-04:00</updated>
     <author>
@@ -147,8 +147,8 @@ div class="nr-comment-reply"
   </entry>
   <entry>
     <title>Custom collections with Middleman</title>
-    <link rel="alternate" href="http://ryan.cm/2014/07/25/custom-collections.html"/>
-    <id>http://ryan.cm/2014/07/25/custom-collections.html</id>
+    <link rel="alternate" href="http://ryanmerrill.net/2014/07/25/custom-collections.html"/>
+    <id>http://ryanmerrill.net/2014/07/25/custom-collections.html</id>
     <published>2014-07-25T17:10:00-04:00</published>
     <updated>2017-05-18T14:53:59-04:00</updated>
     <author>
@@ -205,8 +205,8 @@ helper method fixed that:&lt;/p&gt;
   </entry>
   <entry>
     <title>Learning and Writing Swift</title>
-    <link rel="alternate" href="http://ryan.cm/2014/06/09/learning-swift.html"/>
-    <id>http://ryan.cm/2014/06/09/learning-swift.html</id>
+    <link rel="alternate" href="http://ryanmerrill.net/2014/06/09/learning-swift.html"/>
+    <id>http://ryanmerrill.net/2014/06/09/learning-swift.html</id>
     <published>2014-06-09T15:28:00-04:00</published>
     <updated>2017-05-18T14:53:59-04:00</updated>
     <author>

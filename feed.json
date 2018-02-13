@@ -1,0 +1,1321 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "",
+  "home_page_url": "",
+  "feed_url": "",
+  "description": "",
+  "icon": "",
+  "favicon": "",
+  "expired": false,
+  "items": [
+   {
+     "id": http://ryanmerrill.net/2017/05/17/remote.html,
+     "title": Tips for Remote Work,
+     "content_html": <p>I recently took a job at <a href="http://8451.com/">84.51°</a>, which means I'm no longer working remotely. The three years I did at <a href="http://food52.com">Food52</a> were great, but it was time for a change. I wrote-up some notes about how to help make things easier when working remotely.</p>
+
+<p>Communication is key. I would err on the side of over communicating anything than not. The only times I  regretted working remote was when I felt out of the loop. There were a number of strategies my team took to keep remote employees happy and engaged.</p>
+
+<h2 id="slack-or-something">Slack or something</h2>
+<p>The team needs to feel included in daily activity and as a part of the company culture. One thing that went a far way for me was using Slack on a daily basis with the rest of the company. Despite being only 1 of 8 remote employees in a 70-person company, I often felt connected because using Slack was part of the company's culture even for those in the office.</p>
+
+<p>Slack had a great feature that allowed a user to quickly hop on a video or audio call to hash out a problem and to stay connected.</p>
+
+<h2 id="daily-standup">Daily Standup</h2>
+<p>We created a daily standup channel for our team in Slack and each day the employees (remote or not) would write their top 3 tasks they were working on that day plus any blockers. It helped the remote employees stay in sync with the rest of the team.</p>
+
+<h2 id="weekly-meetings">Weekly Meetings</h2>
+<p>We had weekly team meetings to discuss larger topics and projects the entire team was working on and if we had any blockers or anything else that would prevent us from getting our work done.</p>
+
+<p>We tried to schedule all of our meetings on Mondays so they would be out of the way for the rest of the week.</p>
+
+<p>I also had weekly 1:1s with my manager over Skype or Slack video. it was important for me to have these and them not be skipped because I sometimes felt out of the loop regarding what was going on at the compnay.</p>
+
+<h2 id="regular-trips-to-the-office">Regular Trips to the Office</h2>
+<p>Since my company was based in NYC, it wasn't easy to get face time with other employees but we made an effort to fly in the remote team to the office every 6 weeks for an entire week. This was usually coupled by a few team dinners or happy hours, which helped bridge the gap between office and remote employee.</p>
+
+<p>I often found myself being the most motivated and getting the most done the week following a trip to NYC.</p>
+
+<h2 id="in-office-meetings">In Office Meetings</h2>
+<p>It was easy for the team to fall into a trap of excluding remote workers from meetings or ignoring them when they are in a meeting. A big part of embracing a remote employee is to make sure they have a voice during a meeting and to keep them in mind when scheduling something.</p>
+,
+     "url": http://ryanmerrill.net/2017/05/17/remote.html,
+     "content_html": <p>I recently took a job at <a href="http://8451.com/">84.51°</a>, which means I'm no longer working remotely. The three years I did at <a href="http://food52.com">Food52</a> were great, but it was time for a change. I wrote-up some notes about how to help make things easier when working remotely.</p>
+
+<p>Communication is key. I would err on the side of over communicating anything than not. The only times I  regretted working remote was when I felt out of the loop. There were a number of strategies my team took to keep remote employees happy and engaged.</p>
+
+<h2 id="slack-or-something">Slack or something</h2>
+<p>The team needs to feel included in daily activity and as a part of the company culture. One thing that went a far way for me was using Slack on a daily basis with the rest of the company. Despite being only 1 of 8 remote employees in a 70-person company, I often felt connected because using Slack was part of the company's culture even for those in the office.</p>
+
+<p>Slack had a great feature that allowed a user to quickly hop on a video or audio call to hash out a problem and to stay connected.</p>
+
+<h2 id="daily-standup">Daily Standup</h2>
+<p>We created a daily standup channel for our team in Slack and each day the employees (remote or not) would write their top 3 tasks they were working on that day plus any blockers. It helped the remote employees stay in sync with the rest of the team.</p>
+
+<h2 id="weekly-meetings">Weekly Meetings</h2>
+<p>We had weekly team meetings to discuss larger topics and projects the entire team was working on and if we had any blockers or anything else that would prevent us from getting our work done.</p>
+
+<p>We tried to schedule all of our meetings on Mondays so they would be out of the way for the rest of the week.</p>
+
+<p>I also had weekly 1:1s with my manager over Skype or Slack video. it was important for me to have these and them not be skipped because I sometimes felt out of the loop regarding what was going on at the compnay.</p>
+
+<h2 id="regular-trips-to-the-office">Regular Trips to the Office</h2>
+<p>Since my company was based in NYC, it wasn't easy to get face time with other employees but we made an effort to fly in the remote team to the office every 6 weeks for an entire week. This was usually coupled by a few team dinners or happy hours, which helped bridge the gap between office and remote employee.</p>
+
+<p>I often found myself being the most motivated and getting the most done the week following a trip to NYC.</p>
+
+<h2 id="in-office-meetings">In Office Meetings</h2>
+<p>It was easy for the team to fall into a trap of excluding remote workers from meetings or ignoring them when they are in a meeting. A big part of embracing a remote employee is to make sure they have a voice during a meeting and to keep them in mind when scheduling something.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2016/03/01/anchor.html,
+     "title": Where's the Class Go?,
+     "content_html": <p>There was a debate at work the other day concerning where to place a class on a given snippet of HTML. The HTML was used to markup a linked profile photo and the disagreement was whether or not to place the class on the anchor or the image tag. The markup is:</p>
+
+<pre class="prettyprint lang-html">
+div class="nr-comment-reply"
+  a href="#"
+    img src="http://placehold.it/100/100"
+  /a
+/div
+</pre>
+
+<p>The CSS is:</p>
+
+<pre class="prettyprint lang-css">
+.c-avatar {
+  display: block;
+  float: left;
+  border-radius: 19px;
+  width: 38px;
+  height: 38px;
+}
+</pre>
+
+<p>Since the avatar link and image combo is floated to the left, placing the class on the image removes the anchor element from the DOM. This wouldn’t appear to be a problem if you were fine removing focus on the entire element when tabbing through the page. For example: <a href="http://cl.ly/fFwI">http://cl.ly/fFwI</a></p>
+
+<p>The benefit of placing the CSS class on the anchor element is it keeps tab focus on the entire element as seen here: <a href="http://cl.ly/fFxh">http://cl.ly/fFxh</a></p>
+
+<p>Long story short: Put the class on the anchor tag if you care about tab focus.</p>
+,
+     "url": http://ryanmerrill.net/2016/03/01/anchor.html,
+     "content_html": <p>There was a debate at work the other day concerning where to place a class on a given snippet of HTML. The HTML was used to markup a linked profile photo and the disagreement was whether or not to place the class on the anchor or the image tag. The markup is:</p>
+
+<pre class="prettyprint lang-html">
+div class="nr-comment-reply"
+  a href="#"
+    img src="http://placehold.it/100/100"
+  /a
+/div
+</pre>
+
+<p>The CSS is:</p>
+
+<pre class="prettyprint lang-css">
+.c-avatar {
+  display: block;
+  float: left;
+  border-radius: 19px;
+  width: 38px;
+  height: 38px;
+}
+</pre>
+
+<p>Since the avatar link and image combo is floated to the left, placing the class on the image removes the anchor element from the DOM. This wouldn’t appear to be a problem if you were fine removing focus on the entire element when tabbing through the page. For example: <a href="http://cl.ly/fFwI">http://cl.ly/fFwI</a></p>
+
+<p>The benefit of placing the CSS class on the anchor element is it keeps tab focus on the entire element as seen here: <a href="http://cl.ly/fFxh">http://cl.ly/fFxh</a></p>
+
+<p>Long story short: Put the class on the anchor tag if you care about tab focus.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2016/02/26/cheat.html,
+     "title": Design Cheating,
+     "content_html": <p>When designing the upcoming (Not)Recipes app for Food52, I often find myself searching for solutions that other apps have figured out previously and working to combine those into our app. At first I felt guilty of not innovating or becoming too mundane, but a recent quote from an <a href="https://www.quora.com/profile/Wilson-Miner/session/95/?__snids__=1578084650&amp;__nsrc__=4">interview with Wilson Miner</a> helped assuage my fears:
+&gt; I think I overvalue "boring" design solutions relative to most other designers. And I don't mean I value simple solutions – I think that's pretty common – I mean boring: unexciting, nondescript, dull. I usually gravitate to and in teams often end up championing the most mundane solutions.</p>
+
+<blockquote>
+  <p>One of my favorite quotes about design is attributed to Charles Eames: "Innovate as a last resort. More horrors are done in the name of innovation than any other."</p>
+</blockquote>
+
+<blockquote>
+  <p>I think it's natural as designers to feel like reusing an existing solution is somehow cheating or more likely just a missed opportunity to show our skill. But in my experience the more "innovative" solution often brings more value to the designer than it does to the product or the end-user.</p>
+</blockquote>
+
+<blockquote>
+  <p>There is nothing more satisfying to me on a project than finding a fitting solution to a problem just lying around, integrating it as seamlessly as possible, and getting zero credit for it.</p>
+</blockquote>
+
+<p>The whole <a href="https://www.quora.com/profile/Wilson-Miner/session/95/?__snids__=1578084650&amp;__nsrc__=4">QA on Quora</a> is worth a read.</p>
+
+,
+     "url": http://ryanmerrill.net/2016/02/26/cheat.html,
+     "content_html": <p>When designing the upcoming (Not)Recipes app for Food52, I often find myself searching for solutions that other apps have figured out previously and working to combine those into our app. At first I felt guilty of not innovating or becoming too mundane, but a recent quote from an <a href="https://www.quora.com/profile/Wilson-Miner/session/95/?__snids__=1578084650&amp;__nsrc__=4">interview with Wilson Miner</a> helped assuage my fears:
+&gt; I think I overvalue "boring" design solutions relative to most other designers. And I don't mean I value simple solutions – I think that's pretty common – I mean boring: unexciting, nondescript, dull. I usually gravitate to and in teams often end up championing the most mundane solutions.</p>
+
+<blockquote>
+  <p>One of my favorite quotes about design is attributed to Charles Eames: "Innovate as a last resort. More horrors are done in the name of innovation than any other."</p>
+</blockquote>
+
+<blockquote>
+  <p>I think it's natural as designers to feel like reusing an existing solution is somehow cheating or more likely just a missed opportunity to show our skill. But in my experience the more "innovative" solution often brings more value to the designer than it does to the product or the end-user.</p>
+</blockquote>
+
+<blockquote>
+  <p>There is nothing more satisfying to me on a project than finding a fitting solution to a problem just lying around, integrating it as seamlessly as possible, and getting zero credit for it.</p>
+</blockquote>
+
+<p>The whole <a href="https://www.quora.com/profile/Wilson-Miner/session/95/?__snids__=1578084650&amp;__nsrc__=4">QA on Quora</a> is worth a read.</p>
+
+
+   }
+   {
+     "id": http://ryanmerrill.net/2016/02/25/launchscreen.html,
+     "title": Custom Launch Screen for iOS,
+     "content_html": <p>As we get closer to launching the <a href="https://app.food52.com/">(Not)Recipes</a> app at Food52 there are a bunch of small details that need to be ironed out. One of these details is the launch screen that users first encounter when launching the app.</p>
+
+<p><a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/LaunchImages.html">According to Apple</a>, the launch screen should be something that fits this description:
+&gt; Remember, the launch image doesn’t provide you with an opportunity for artistic expression. It’s solely intended to enhance the user’s perception of your app as quick to launch and immediately ready for use.</p>
+
+<p>This means we should have an empty launch screen only showing the basic UI such as the tab bar and its icons and the nav bar. In our case it looks like this:</p>
+
+<p><img alt="Launch Screen" src="/images/2016/02/25/blank.png" /></p>
+
+<p>The easiest way to do this is to create a LaunchScreen.storyboard file by going to:</p>
+
+<p><img alt="Launch Adding" src="/images/2016/02/25/launch_adding.png" /></p>
+
+<p>After that you’ll need to set the launch screen in the project settings here:</p>
+
+<p><img alt="Launch Settings" src="/images/2016/02/25/launch_settings.png" /></p>
+
+<p>Following that it’s just a matter of adding a few dummy UI elements to the storyboard. Since we have a tab bar in our app, we added an empty tab bar and its items to the launch screen storyboard:</p>
+
+<p><img alt="Tab bar" src="/images/2016/02/25/tabbar.png" /></p>
+
+<p>We also adjusted the height of the navigation bar to reflect what it will look like on launch. Remember to set the Auto Layout constraints on both the tab bar and nav bar in order to keep things looking good on all device sizes.</p>
+,
+     "url": http://ryanmerrill.net/2016/02/25/launchscreen.html,
+     "content_html": <p>As we get closer to launching the <a href="https://app.food52.com/">(Not)Recipes</a> app at Food52 there are a bunch of small details that need to be ironed out. One of these details is the launch screen that users first encounter when launching the app.</p>
+
+<p><a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/LaunchImages.html">According to Apple</a>, the launch screen should be something that fits this description:
+&gt; Remember, the launch image doesn’t provide you with an opportunity for artistic expression. It’s solely intended to enhance the user’s perception of your app as quick to launch and immediately ready for use.</p>
+
+<p>This means we should have an empty launch screen only showing the basic UI such as the tab bar and its icons and the nav bar. In our case it looks like this:</p>
+
+<p><img alt="Launch Screen" src="/images/2016/02/25/blank.png" /></p>
+
+<p>The easiest way to do this is to create a LaunchScreen.storyboard file by going to:</p>
+
+<p><img alt="Launch Adding" src="/images/2016/02/25/launch_adding.png" /></p>
+
+<p>After that you’ll need to set the launch screen in the project settings here:</p>
+
+<p><img alt="Launch Settings" src="/images/2016/02/25/launch_settings.png" /></p>
+
+<p>Following that it’s just a matter of adding a few dummy UI elements to the storyboard. Since we have a tab bar in our app, we added an empty tab bar and its items to the launch screen storyboard:</p>
+
+<p><img alt="Tab bar" src="/images/2016/02/25/tabbar.png" /></p>
+
+<p>We also adjusted the height of the navigation bar to reflect what it will look like on launch. Remember to set the Auto Layout constraints on both the tab bar and nav bar in order to keep things looking good on all device sizes.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2014/07/25/custom-collections.html,
+     "title": Custom collections with Middleman,
+     "content_html": <p>This site is based on the static-site generator Middleman, which has served
+me well over the years.</p>
+
+<p>I had the opportunity to work on creating a blog that needed navigation to be built
+using dynamic category names defined by an author when creating a new post. The category name
+is stored in the article's front matter like so:</p>
+
+<pre class="prettyprint ruby">
+---
+title: My Second Test
+date: 2014-07-25 20:16 UTC
+category: design
+author: Ryan Merrill
+tags: development, programming, swift
+summary: This is the summary
+---
+</pre>
+
+<p>Middleman's blog extension comes built with tagging ability, but didn't offer support for categories.
+Fortunately you can create custom collections easily:</p>
+
+<pre class="prettyprint ruby">
+activate :blog do |blog|
+  blog.custom_collections = {
+    category: {
+      link: '/categories/{category}.html',
+      template: '/category.html'
+    }
+  }
+end
+</pre>
+
+<p>After that, I needed to find all of the categories defined by the author to build the navigation. A handy
+helper method fixed that:</p>
+
+<pre class="prettyprint ruby">
+  def build_categories(articles)
+    categories = []
+    articles.each do |article|
+      category = article.metadata[:page]['category']
+      categories.push(category) unless categories.include? category
+    end
+    return categories
+  end
+</pre>
+
+<p>It was just a matter of passing the blog's articles to the helper to finish building the site's navigation.</p>
+,
+     "url": http://ryanmerrill.net/2014/07/25/custom-collections.html,
+     "content_html": <p>This site is based on the static-site generator Middleman, which has served
+me well over the years.</p>
+
+<p>I had the opportunity to work on creating a blog that needed navigation to be built
+using dynamic category names defined by an author when creating a new post. The category name
+is stored in the article's front matter like so:</p>
+
+<pre class="prettyprint ruby">
+---
+title: My Second Test
+date: 2014-07-25 20:16 UTC
+category: design
+author: Ryan Merrill
+tags: development, programming, swift
+summary: This is the summary
+---
+</pre>
+
+<p>Middleman's blog extension comes built with tagging ability, but didn't offer support for categories.
+Fortunately you can create custom collections easily:</p>
+
+<pre class="prettyprint ruby">
+activate :blog do |blog|
+  blog.custom_collections = {
+    category: {
+      link: '/categories/{category}.html',
+      template: '/category.html'
+    }
+  }
+end
+</pre>
+
+<p>After that, I needed to find all of the categories defined by the author to build the navigation. A handy
+helper method fixed that:</p>
+
+<pre class="prettyprint ruby">
+  def build_categories(articles)
+    categories = []
+    articles.each do |article|
+      category = article.metadata[:page]['category']
+      categories.push(category) unless categories.include? category
+    end
+    return categories
+  end
+</pre>
+
+<p>It was just a matter of passing the blog's articles to the helper to finish building the site's navigation.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2014/06/09/learning-swift.html,
+     "title": Learning and Writing Swift,
+     "content_html": <p>There’s no doubt to be a glut of want-to-be iOS developers clamoring for resources to learn Swift after Apple’s announcement of the language last week at WWDC. Count me among them.</p>
+
+<p>As someone who for years wanted to dip their toes into the waters of iOS development, the time doesn’t seem better than now to give it a go. I compiled the best Swift-language resources I’ve found below.</p>
+
+<h3 id="sample-apps">Sample Apps</h3>
+<ul>
+  <li><a href="https://github.com/fullstackio/FlappySwift">FlappySwift - FlappyBird in Swift</a></li>
+  <li><a href="https://github.com/mslathrop/SwiftNote">SwiftNote - Simple note taking app with today widget and iCloud syncing</a></li>
+</ul>
+
+<h3 id="official-apple-resources">Official Apple Resources</h3>
+<ul>
+  <li><a href="https://itunes.apple.com/us/book/swift-programming-language/id881256329">Swift iBook</a></li>
+  <li><a href="https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/LandingPage/index.html#//apple_ref/doc/uid/TP40014345">Welcome to Swift</a></li>
+</ul>
+
+<h3 id="people-who-talk-about-swift">People who talk about Swift</h3>
+<ul>
+  <li><a href="https://twitter.com/clattner_llvm">Chris Lattner</a></li>
+</ul>
+
+<h3 id="apple-nda-demos-linked-on-github">Apple NDA Demos linked on Github</h3>
+<p>I’m not sure whether or not these demos fall under an NDA restriction or not, but I found them on Github so grab them while you can.
+* <a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/ListerAProductivityAppBuiltinSwift">Lister: A Productivity App Built in Swift</a>
+* <a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/UICatalogCreatingandCustomizingUIKitControlsinSwift">UICatalog: Creating and Customizing UIKit Controls in Swift</a>
+* <a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/AdventureBuildingaSpriteKitgameusingSwift">Adventure: Building a SpriteKit Game Using Swift</a>
+* <a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/GestureRecognizersUsingstandardUIGestureRecognizers">GestureRecognizers: Using standard UIGestureRecognizers in Swift</a></p>
+
+<h3 id="misc-resources">Misc. Resources</h3>
+<ul>
+  <li><a href="http://chares.ghost.io/lets-make-a-swift-app/">Lets Make a Swift App</a></li>
+  <li><a href="http://www.weheartswift.com/">We Heart Swift</a></li>
+  <li><a href="http://jamesonquave.com/blog/developing-ios-apps-using-swift-tutorial/">Developing iOS Apps Using Swift Tutorial</a></li>
+  <li><a href="http://www.learnswift.tips/">Learn Swift - A curated list of helpful resources to learn Swift.</a></li>
+  <li><a href="https://github.com/grant/swift-cheat-sheet">Swift Cheat Sheet</a></li>
+  <li><a href="http://stackoverflow.com/questions/tagged/swift-language">Stackoverflow’s Swift Questions</a></li>
+</ul>
+
+,
+     "url": http://ryanmerrill.net/2014/06/09/learning-swift.html,
+     "content_html": <p>There’s no doubt to be a glut of want-to-be iOS developers clamoring for resources to learn Swift after Apple’s announcement of the language last week at WWDC. Count me among them.</p>
+
+<p>As someone who for years wanted to dip their toes into the waters of iOS development, the time doesn’t seem better than now to give it a go. I compiled the best Swift-language resources I’ve found below.</p>
+
+<h3 id="sample-apps">Sample Apps</h3>
+<ul>
+  <li><a href="https://github.com/fullstackio/FlappySwift">FlappySwift - FlappyBird in Swift</a></li>
+  <li><a href="https://github.com/mslathrop/SwiftNote">SwiftNote - Simple note taking app with today widget and iCloud syncing</a></li>
+</ul>
+
+<h3 id="official-apple-resources">Official Apple Resources</h3>
+<ul>
+  <li><a href="https://itunes.apple.com/us/book/swift-programming-language/id881256329">Swift iBook</a></li>
+  <li><a href="https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/LandingPage/index.html#//apple_ref/doc/uid/TP40014345">Welcome to Swift</a></li>
+</ul>
+
+<h3 id="people-who-talk-about-swift">People who talk about Swift</h3>
+<ul>
+  <li><a href="https://twitter.com/clattner_llvm">Chris Lattner</a></li>
+</ul>
+
+<h3 id="apple-nda-demos-linked-on-github">Apple NDA Demos linked on Github</h3>
+<p>I’m not sure whether or not these demos fall under an NDA restriction or not, but I found them on Github so grab them while you can.
+* <a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/ListerAProductivityAppBuiltinSwift">Lister: A Productivity App Built in Swift</a>
+* <a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/UICatalogCreatingandCustomizingUIKitControlsinSwift">UICatalog: Creating and Customizing UIKit Controls in Swift</a>
+* <a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/AdventureBuildingaSpriteKitgameusingSwift">Adventure: Building a SpriteKit Game Using Swift</a>
+* <a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/GestureRecognizersUsingstandardUIGestureRecognizers">GestureRecognizers: Using standard UIGestureRecognizers in Swift</a></p>
+
+<h3 id="misc-resources">Misc. Resources</h3>
+<ul>
+  <li><a href="http://chares.ghost.io/lets-make-a-swift-app/">Lets Make a Swift App</a></li>
+  <li><a href="http://www.weheartswift.com/">We Heart Swift</a></li>
+  <li><a href="http://jamesonquave.com/blog/developing-ios-apps-using-swift-tutorial/">Developing iOS Apps Using Swift Tutorial</a></li>
+  <li><a href="http://www.learnswift.tips/">Learn Swift - A curated list of helpful resources to learn Swift.</a></li>
+  <li><a href="https://github.com/grant/swift-cheat-sheet">Swift Cheat Sheet</a></li>
+  <li><a href="http://stackoverflow.com/questions/tagged/swift-language">Stackoverflow’s Swift Questions</a></li>
+</ul>
+
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/12/10/collections.html,
+     "title": NYTimes Compendium,
+     "content_html": <p>I love <a href="http://nytimes.com/compendium/about/?pagewanted=all">this idea</a> from the New York Times:
+&gt;	Compendium invites readers of The New York Times like you to use articles, imagery, videos, and quotations to tell your own stories using New York Times content. Each collection has a description that you can use to introduce the collection as a whole, and each item in your collection has a place for you to describe what was important, interesting, or funny about it. Once created, you can share your collection or link to it from anywhere. Compendium is also a great place to discover and explore interesting stories through a wide variety of collections created by our readers, editors, and reporters.</p>
+
+<p>It reminds me a lot of Evan Williams' <a href="https://medium.com/">Medium</a>.</p>
+
+<p>On a related note, I notice myself getting a lot more useful and interesting content through other sources than RSS and Twitter these days, notably through email newsletters, <a href="http://readlists.com/">Readability's Readlists</a>, and collections like Compendium and Medium. Definitely something going on here.</p>
+,
+     "url": http://ryanmerrill.net/2012/12/10/collections.html,
+     "content_html": <p>I love <a href="http://nytimes.com/compendium/about/?pagewanted=all">this idea</a> from the New York Times:
+&gt;	Compendium invites readers of The New York Times like you to use articles, imagery, videos, and quotations to tell your own stories using New York Times content. Each collection has a description that you can use to introduce the collection as a whole, and each item in your collection has a place for you to describe what was important, interesting, or funny about it. Once created, you can share your collection or link to it from anywhere. Compendium is also a great place to discover and explore interesting stories through a wide variety of collections created by our readers, editors, and reporters.</p>
+
+<p>It reminds me a lot of Evan Williams' <a href="https://medium.com/">Medium</a>.</p>
+
+<p>On a related note, I notice myself getting a lot more useful and interesting content through other sources than RSS and Twitter these days, notably through email newsletters, <a href="http://readlists.com/">Readability's Readlists</a>, and collections like Compendium and Medium. Definitely something going on here.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/10/17/ems.html,
+     "title": Sizing Text in Pixels, Ems or Rems &mdash; What's Correct?,
+     "content_html": <p>There's been a number of discussions at <a href="http://helloample.com">Ample</a> lately about whether or not using ems for text sizing is worth the headache. As the one who maintains Ample's baseline getting-started repo, I figured it's up to me to figure out what's what.</p>
+
+<p>A routine argument against ems is that they over complicate something so basic such as setting the size of type. So why do we even need ems? Why can't we just size everything in pixels?</p>
+
+<p>One case for using ems was given 6 years ago by Richard Rutter in <a href="http://www.alistapart.com/articles/howtosizetextincss">this article for A List Apart</a>:
+&gt; Sizing text and line-height in ems, with a percentage specified on the body, was shown to provide accurate, resizable text across all browsers in common use today. </p>
+
+<p>But his tests were based on many browsers that have since become obsolete, save for IE7 which currently has a piddly 1.3% user base. His main argument for using ems was to allow users to "resize text without being forced to use the zoom control." But if 1.3% of the public has to rely on the zoom control, that's cool, right?</p>
+
+<h3 id="the-pixels-have-it">The pixels have it?</h3>
+<p>So we can forget the em, right? Well, not exactly. From what I can gather, the advantage of using ems over pixels for text sizing is to accommodate users who specifically set their browser's text size to larger than the default. And while I'm no expert on the matter, I assume users with a vision impairment go this route as opposed to using the browser's zoom functionality. Setting the text size in a browser's settings panel is a one-time thing, while a user needs to zoom on each individual site or page in order to increase the size.</p>
+
+<p>Another advantage of increasing text size instead of page zooming is the other non-text elements, such as a site's logo, maintain their original size. Page zooming also increases the likelihood of a horizontal scrollbar, which reduces the ability to scan a page.</p>
+
+<p>I couldn't find any hard facts as to which route low vision users typically take, but I'd love to hear from someone on this.</p>
+
+<h3 id="so-lets-use-ems">So let's use ems</h3>
+<p>Because ems are relative, we always need to be aware of how deep in the HTML and CSS we're descending so the browser renders our desired results. Published 8 years ago, Richard Rutter wrote a <a href="http://clagnut.com/blog/348/">great overview on how to calculate your desired text size in ems</a>:
+&gt; When sizing text in ems there’s really one rule to remember: size text relative to its parent and use this simple calculation to do so: child pixels / parent pixels = child ems</p>
+
+<p>This was wildly confusing the first time I used it. It was another thing to remember and, honestly, wasn't there enough to remember already?</p>
+
+<p>At Ample we use a simple SCSS mixin to reduce the confusion and to calculate the em value for us:</p>
+
+<pre class="prettyprint css">
+@function calc-em($target-px, $context) {
+  @return ($target-px / $context) * 1em;
+}
+</pre>
+
+<p>The <a href="http://thesassway.com/intermediate/responsive-web-design-part-1">above code is taken from The SASS Way</a> and allows us to think in pixels rather than ems. Of course you still need to be aware of your context and the text size of an element's parent.</p>
+
+<h3 id="the-ems-have-it-or-do-they">The Ems Have it! Or do they?</h3>
+<p>So what we're left with is using ems is the responsible way to set type on the web. But with the advent of CSS3 and the rem unit, it looks like we're going to soon get the best of both worlds.</p>
+
+<p>The rem does away with having to set type size relative to its parent element by adjusting the text size relative to the root element of the page, often the HTML tag. <a href="http://snook.ca/archives/html_and_css/font-size-with-rem">Jonathan Snook does a good job explaining this</a>:
+&gt; The rem unit is relative to the root—or the html—element. That means that we can define a single font size on the html element and define all rem units to be a percentage of that.</p>
+
+<p>Unfortunately we're stuck with lack of support for IE7 and IE8, both of which we begrudgingly support. An option Snook proposes is to create two sets of type sizes, one in rems and the other in pixels to support older browsers. This of course doesn't solve the problem of page zooming vs. text resizing, but we have to draw the line somewhere don't we? </p>
+
+<p>Well, maybe. </p>
+
+<p>The guys at Sparkbox <a href="http://seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback">wrote about a SCSS mixin</a> they are using to use rems and to provide an accessible fallback for older browsers.</p>
+
+<pre class="prettyprint css">
+// Mixin
+@mixin font-size( $decimal-size, $keyword: null ) {
+	@if $keyword{ font-size: $keyword; }
+	@else { font-size: $decimal-size * $base-font-multiplier * 16px;}
+	font-size: $decimal-size * 1rem;
+}
+
+// Example use case
+html {
+	@include font-size(1, large);
+}
+</pre>
+
+<p>You can read the whole article for their thinking behind the mixin, but in short it uses font-size keywords to provide support for browsers that cannot support the rem.</p>
+
+<p>So what are we going to do? We're going to stick with the em as a unit for resizing type until the share of browsers not supporting the rem is small enough declare obsolete. I'm not fond of the lack of granular control for older browsers that Sparkbox's mixin provides. Plus I'm not sure how they account for margin, padding and line-height.</p>
+
+<p>I think the accessibility benefits of using ems for type size outweigh any headaches associated with them.</p>
+,
+     "url": http://ryanmerrill.net/2012/10/17/ems.html,
+     "content_html": <p>There's been a number of discussions at <a href="http://helloample.com">Ample</a> lately about whether or not using ems for text sizing is worth the headache. As the one who maintains Ample's baseline getting-started repo, I figured it's up to me to figure out what's what.</p>
+
+<p>A routine argument against ems is that they over complicate something so basic such as setting the size of type. So why do we even need ems? Why can't we just size everything in pixels?</p>
+
+<p>One case for using ems was given 6 years ago by Richard Rutter in <a href="http://www.alistapart.com/articles/howtosizetextincss">this article for A List Apart</a>:
+&gt; Sizing text and line-height in ems, with a percentage specified on the body, was shown to provide accurate, resizable text across all browsers in common use today. </p>
+
+<p>But his tests were based on many browsers that have since become obsolete, save for IE7 which currently has a piddly 1.3% user base. His main argument for using ems was to allow users to "resize text without being forced to use the zoom control." But if 1.3% of the public has to rely on the zoom control, that's cool, right?</p>
+
+<h3 id="the-pixels-have-it">The pixels have it?</h3>
+<p>So we can forget the em, right? Well, not exactly. From what I can gather, the advantage of using ems over pixels for text sizing is to accommodate users who specifically set their browser's text size to larger than the default. And while I'm no expert on the matter, I assume users with a vision impairment go this route as opposed to using the browser's zoom functionality. Setting the text size in a browser's settings panel is a one-time thing, while a user needs to zoom on each individual site or page in order to increase the size.</p>
+
+<p>Another advantage of increasing text size instead of page zooming is the other non-text elements, such as a site's logo, maintain their original size. Page zooming also increases the likelihood of a horizontal scrollbar, which reduces the ability to scan a page.</p>
+
+<p>I couldn't find any hard facts as to which route low vision users typically take, but I'd love to hear from someone on this.</p>
+
+<h3 id="so-lets-use-ems">So let's use ems</h3>
+<p>Because ems are relative, we always need to be aware of how deep in the HTML and CSS we're descending so the browser renders our desired results. Published 8 years ago, Richard Rutter wrote a <a href="http://clagnut.com/blog/348/">great overview on how to calculate your desired text size in ems</a>:
+&gt; When sizing text in ems there’s really one rule to remember: size text relative to its parent and use this simple calculation to do so: child pixels / parent pixels = child ems</p>
+
+<p>This was wildly confusing the first time I used it. It was another thing to remember and, honestly, wasn't there enough to remember already?</p>
+
+<p>At Ample we use a simple SCSS mixin to reduce the confusion and to calculate the em value for us:</p>
+
+<pre class="prettyprint css">
+@function calc-em($target-px, $context) {
+  @return ($target-px / $context) * 1em;
+}
+</pre>
+
+<p>The <a href="http://thesassway.com/intermediate/responsive-web-design-part-1">above code is taken from The SASS Way</a> and allows us to think in pixels rather than ems. Of course you still need to be aware of your context and the text size of an element's parent.</p>
+
+<h3 id="the-ems-have-it-or-do-they">The Ems Have it! Or do they?</h3>
+<p>So what we're left with is using ems is the responsible way to set type on the web. But with the advent of CSS3 and the rem unit, it looks like we're going to soon get the best of both worlds.</p>
+
+<p>The rem does away with having to set type size relative to its parent element by adjusting the text size relative to the root element of the page, often the HTML tag. <a href="http://snook.ca/archives/html_and_css/font-size-with-rem">Jonathan Snook does a good job explaining this</a>:
+&gt; The rem unit is relative to the root—or the html—element. That means that we can define a single font size on the html element and define all rem units to be a percentage of that.</p>
+
+<p>Unfortunately we're stuck with lack of support for IE7 and IE8, both of which we begrudgingly support. An option Snook proposes is to create two sets of type sizes, one in rems and the other in pixels to support older browsers. This of course doesn't solve the problem of page zooming vs. text resizing, but we have to draw the line somewhere don't we? </p>
+
+<p>Well, maybe. </p>
+
+<p>The guys at Sparkbox <a href="http://seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback">wrote about a SCSS mixin</a> they are using to use rems and to provide an accessible fallback for older browsers.</p>
+
+<pre class="prettyprint css">
+// Mixin
+@mixin font-size( $decimal-size, $keyword: null ) {
+	@if $keyword{ font-size: $keyword; }
+	@else { font-size: $decimal-size * $base-font-multiplier * 16px;}
+	font-size: $decimal-size * 1rem;
+}
+
+// Example use case
+html {
+	@include font-size(1, large);
+}
+</pre>
+
+<p>You can read the whole article for their thinking behind the mixin, but in short it uses font-size keywords to provide support for browsers that cannot support the rem.</p>
+
+<p>So what are we going to do? We're going to stick with the em as a unit for resizing type until the share of browsers not supporting the rem is small enough declare obsolete. I'm not fond of the lack of granular control for older browsers that Sparkbox's mixin provides. Plus I'm not sure how they account for margin, padding and line-height.</p>
+
+<p>I think the accessibility benefits of using ems for type size outweigh any headaches associated with them.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/10/11/time.html,
+     "title": How to Create More Time,
+     "content_html": <p>Some <a href="http://www.linkedin.com/today/post/article/20121002125913-3279-how-to-create-time">great time-saving tips</a> from Caterina Fake here:
+&gt; * Eliminate or Reduce Media
+&gt; * Work Offline
+&gt; * Do less
+&gt; * Don't make appointments or schedule meetings.
+&gt; * Sleep in two shifts.
+&gt; * Make time less precious.</p>
+
+<p>Be sure to <a href="http://www.linkedin.com/today/post/article/20121002125913-3279-how-to-create-time">click through to the whole post</a> to read detailed descriptions on each point. Now I need to go do some stuff.</p>
+,
+     "url": http://ryanmerrill.net/2012/10/11/time.html,
+     "content_html": <p>Some <a href="http://www.linkedin.com/today/post/article/20121002125913-3279-how-to-create-time">great time-saving tips</a> from Caterina Fake here:
+&gt; * Eliminate or Reduce Media
+&gt; * Work Offline
+&gt; * Do less
+&gt; * Don't make appointments or schedule meetings.
+&gt; * Sleep in two shifts.
+&gt; * Make time less precious.</p>
+
+<p>Be sure to <a href="http://www.linkedin.com/today/post/article/20121002125913-3279-how-to-create-time">click through to the whole post</a> to read detailed descriptions on each point. Now I need to go do some stuff.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/10/10/font.html,
+     "title": Source Code Pro,
+     "content_html": <p>Adobe <a href="http://blogs.adobe.com/typblography/2012/09/source-code-pro.html">recently announced the release</a> of Source Code Pro, a monospaced font adapted from <a href="http://blogs.adobe.com/typblography/2012/08/source-sans-pro.html">Source Sans Pro</a>. </p>
+
+<p>Looks to be worth a try, at least. Pick up your copy <a href="https://github.com/adobe/Source-Code-Pro">here</a>.</p>
+,
+     "url": http://ryanmerrill.net/2012/10/10/font.html,
+     "content_html": <p>Adobe <a href="http://blogs.adobe.com/typblography/2012/09/source-code-pro.html">recently announced the release</a> of Source Code Pro, a monospaced font adapted from <a href="http://blogs.adobe.com/typblography/2012/08/source-sans-pro.html">Source Sans Pro</a>. </p>
+
+<p>Looks to be worth a try, at least. Pick up your copy <a href="https://github.com/adobe/Source-Code-Pro">here</a>.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/10/10/shouting.html,
+     "title": It's All Over Except the Shouting,
+     "content_html": <p>A <a href="http://counternotions.com/2012/10/09/shouting/">thoughtful piece</a> from <a href="http://counternotions.com/contact/">Kontra</a> on how far online technology journalism has fallen.</p>
+
+<blockquote>
+  <p>Shouting sells. We’ve known this for a long time. If companies are daft enough to let their ad buyers talk them into spending money on those who shout the most, then publishers would be reckless to leave money on the table. Some publishers say they would like to steer their publications away from yellow journalism, but in a compensation system based solely on pageviews and clicks, they are beholden to a Romneyesque principle: “We’re not going to let our campaign be dictated by fact-checkers.”</p>
+</blockquote>
+,
+     "url": http://ryanmerrill.net/2012/10/10/shouting.html,
+     "content_html": <p>A <a href="http://counternotions.com/2012/10/09/shouting/">thoughtful piece</a> from <a href="http://counternotions.com/contact/">Kontra</a> on how far online technology journalism has fallen.</p>
+
+<blockquote>
+  <p>Shouting sells. We’ve known this for a long time. If companies are daft enough to let their ad buyers talk them into spending money on those who shout the most, then publishers would be reckless to leave money on the table. Some publishers say they would like to steer their publications away from yellow journalism, but in a compensation system based solely on pageviews and clicks, they are beholden to a Romneyesque principle: “We’re not going to let our campaign be dictated by fact-checkers.”</p>
+</blockquote>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/08/15/what-medium.html,
+     "title": What's Next in Publishing,
+     "content_html": <p>Maybe it's just me, but I've been noticing a lot of buzz lately around how <a href="http://www.nytimes.com/2012/08/13/business/media/wondering-how-far-magazines-must-fall.html?_r=1&amp;pagewanted=all">print magazines and their newspaper cousins</a> are slipping further into irrelevancy. Of course none of this is news, but I've read some interesting anecdotes the past few days of people trying to think of ideas to fill the gap the print publications will invariable leave behind.</p>
+
+<p>On introducing Medium, <a href="https://medium.com/p/3cb1d19eae8">The Obvious Corporation's</a> new publishing platform, <a href="https://medium.com/p/9e53ca408c48">Evan Williams writes</a>:
+&gt; The Obvious Corporation decided to take on the project of building a new publishing platform from scratch, not just because it’s in our wheelhouse, but because we believe publishing—and media, more broadly—is important. It’s easy to forget this given how much pointless and destructive media is in the world. But there’s also more great stuff than ever before—and we haven’t even scratched the surface of what our smart devices and our networks that connect most of the planet might enable.</p>
+
+<blockquote>
+  <p>Medium is designed to allow people to choose the level of contribution they prefer. We know that most people, most of the time, will simply read and view content, which is fine. If they choose, they can click to indicate whether they think something is good, giving feedback to the creator and increasing the likelihood others will see it.</p>
+</blockquote>
+
+<blockquote>
+  <p>Posting on Medium (not yet open to everyone) is elegant and easy, and you can do so without the burden of becoming a blogger or worrying about developing an audience. All posts are organized into “collections,” which are defined by a theme and a template. (For example, this post is in the About Medium collection with a simple article template.)</p>
+</blockquote>
+
+<p>And writing at Pando Daily, <a href="http://pandodaily.com/2012/03/26/the-future-of-magazines-should-look-a-lot-like-spotify/">Hamish McKenzie describes</a> what – at least for me – would be a perfect publishing delivery mechanism:
+&gt; You have an app called something like Mag Reader. When you open Mag Reader, it shows you a list of the latest works from your favorite publications, as well as ones that align with your interests, or the stories currently most talked about on social media.</p>
+
+<blockquote>
+  <p>Each story is listed with a small picture, headline, by-line, date, relevancy rating (just like Netflix’s customized recommendations), introductory teaser, and publisher name. Before clicking through, you can expand each one to see more art work, the first few paragraphs, who has recommended the story, links to similar stories, and what else the publisher has put out recently. If you feel the urge, you can even buy the magazine issue into which the piece has been bundled for paper consumption.</p>
+</blockquote>
+
+<blockquote>
+  <p>You have a profile page, just like you do on Spotify or Facebook, on which your most recently read stories are listed alongside the stories you recommend most highly. On your page, you can also list your favourite magazines and writers, along with your interests.</p>
+</blockquote>
+
+<p>Like anything, I'm sure there's a ton of details and politics to work out before anything Hamish is describing to come to fruition, but as Evan writes in his post: We've only been publishing on the Internet for a little less than 20 years. It's still a young medium. And whatever way publishing turns, I'm confident there will always be an output for quality journalism no matter the medium.</p>
+
+<p>What do you think?</p>
+,
+     "url": http://ryanmerrill.net/2012/08/15/what-medium.html,
+     "content_html": <p>Maybe it's just me, but I've been noticing a lot of buzz lately around how <a href="http://www.nytimes.com/2012/08/13/business/media/wondering-how-far-magazines-must-fall.html?_r=1&amp;pagewanted=all">print magazines and their newspaper cousins</a> are slipping further into irrelevancy. Of course none of this is news, but I've read some interesting anecdotes the past few days of people trying to think of ideas to fill the gap the print publications will invariable leave behind.</p>
+
+<p>On introducing Medium, <a href="https://medium.com/p/3cb1d19eae8">The Obvious Corporation's</a> new publishing platform, <a href="https://medium.com/p/9e53ca408c48">Evan Williams writes</a>:
+&gt; The Obvious Corporation decided to take on the project of building a new publishing platform from scratch, not just because it’s in our wheelhouse, but because we believe publishing—and media, more broadly—is important. It’s easy to forget this given how much pointless and destructive media is in the world. But there’s also more great stuff than ever before—and we haven’t even scratched the surface of what our smart devices and our networks that connect most of the planet might enable.</p>
+
+<blockquote>
+  <p>Medium is designed to allow people to choose the level of contribution they prefer. We know that most people, most of the time, will simply read and view content, which is fine. If they choose, they can click to indicate whether they think something is good, giving feedback to the creator and increasing the likelihood others will see it.</p>
+</blockquote>
+
+<blockquote>
+  <p>Posting on Medium (not yet open to everyone) is elegant and easy, and you can do so without the burden of becoming a blogger or worrying about developing an audience. All posts are organized into “collections,” which are defined by a theme and a template. (For example, this post is in the About Medium collection with a simple article template.)</p>
+</blockquote>
+
+<p>And writing at Pando Daily, <a href="http://pandodaily.com/2012/03/26/the-future-of-magazines-should-look-a-lot-like-spotify/">Hamish McKenzie describes</a> what – at least for me – would be a perfect publishing delivery mechanism:
+&gt; You have an app called something like Mag Reader. When you open Mag Reader, it shows you a list of the latest works from your favorite publications, as well as ones that align with your interests, or the stories currently most talked about on social media.</p>
+
+<blockquote>
+  <p>Each story is listed with a small picture, headline, by-line, date, relevancy rating (just like Netflix’s customized recommendations), introductory teaser, and publisher name. Before clicking through, you can expand each one to see more art work, the first few paragraphs, who has recommended the story, links to similar stories, and what else the publisher has put out recently. If you feel the urge, you can even buy the magazine issue into which the piece has been bundled for paper consumption.</p>
+</blockquote>
+
+<blockquote>
+  <p>You have a profile page, just like you do on Spotify or Facebook, on which your most recently read stories are listed alongside the stories you recommend most highly. On your page, you can also list your favourite magazines and writers, along with your interests.</p>
+</blockquote>
+
+<p>Like anything, I'm sure there's a ton of details and politics to work out before anything Hamish is describing to come to fruition, but as Evan writes in his post: We've only been publishing on the Internet for a little less than 20 years. It's still a young medium. And whatever way publishing turns, I'm confident there will always be an output for quality journalism no matter the medium.</p>
+
+<p>What do you think?</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/08/07/louis-ck.html,
+     "title": Hardest Working Man in Show Business,
+     "content_html": <p>I highly recommend this <a href="http://www.avclub.com/articles/louis-ck-on-eating-pressure-and-providing-an-alter,82102/">crazy-good interview</a> with the hardest working man in show business, Louis C.K.</p>
+
+<p>On of my favorite quotes:
+&gt; Money is a resource. It’s an energy that you can inject into things, and it makes stuff happen. This money was like an intention that was pushed toward me, and I thought, “If I keep pushing it around, this is good. This makes me happy.</p>
+
+<p>The <a href="http://www.avclub.com/articles/louis-ck-on-eating-pressure-and-providing-an-alter,82102/">entire interview</a> is stocked full of wisdom like this. Go read it. Now.</p>
+,
+     "url": http://ryanmerrill.net/2012/08/07/louis-ck.html,
+     "content_html": <p>I highly recommend this <a href="http://www.avclub.com/articles/louis-ck-on-eating-pressure-and-providing-an-alter,82102/">crazy-good interview</a> with the hardest working man in show business, Louis C.K.</p>
+
+<p>On of my favorite quotes:
+&gt; Money is a resource. It’s an energy that you can inject into things, and it makes stuff happen. This money was like an intention that was pushed toward me, and I thought, “If I keep pushing it around, this is good. This makes me happy.</p>
+
+<p>The <a href="http://www.avclub.com/articles/louis-ck-on-eating-pressure-and-providing-an-alter,82102/">entire interview</a> is stocked full of wisdom like this. Go read it. Now.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/07/26/clock.html,
+     "title": Designing a Clock,
+     "content_html": <p>This has been passed around the Internet for awhile now, but I think it's worth sharing here again. <a href="http://dewith.com/2012/an-android-design-process/">Sebastiaan de With shares his experiences designing an alarm clock app for Android</a>.</p>
+
+<p>It sounds like a hellish nightmare to do this, and is probably why a lot of the great app design is taking place on closed systems such as iOS. But Android vs. iOS aside, Sebastiaan brings up a great point when it comes to designing in general:
+&gt; I’d say every designer should design a clock at some point. There’s a lot of ways you can design a clock, and it’s surprisingly difficult to design something so attractive that it is remarkable, yet neutral enough to be liked by a very wide audience. One only has to look at the market for watches to see how intensely personal clock design is. I am still not quite content, and I’ll probably never be: I’ve found designing clocks to be a rather consuming affair.</p>
+
+<p>It's something that I've never taken the time to design myself, but also something I could see a great challenge to do right. If I ever wade into the waters of app design, a clock will definitely be one of my top priorities.</p>
+,
+     "url": http://ryanmerrill.net/2012/07/26/clock.html,
+     "content_html": <p>This has been passed around the Internet for awhile now, but I think it's worth sharing here again. <a href="http://dewith.com/2012/an-android-design-process/">Sebastiaan de With shares his experiences designing an alarm clock app for Android</a>.</p>
+
+<p>It sounds like a hellish nightmare to do this, and is probably why a lot of the great app design is taking place on closed systems such as iOS. But Android vs. iOS aside, Sebastiaan brings up a great point when it comes to designing in general:
+&gt; I’d say every designer should design a clock at some point. There’s a lot of ways you can design a clock, and it’s surprisingly difficult to design something so attractive that it is remarkable, yet neutral enough to be liked by a very wide audience. One only has to look at the market for watches to see how intensely personal clock design is. I am still not quite content, and I’ll probably never be: I’ve found designing clocks to be a rather consuming affair.</p>
+
+<p>It's something that I've never taken the time to design myself, but also something I could see a great challenge to do right. If I ever wade into the waters of app design, a clock will definitely be one of my top priorities.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/07/10/read-over.html,
+     "title": Black and White and Read All Over?,
+     "content_html": <p>Think the newspaper industry was in trouble a few years ago? Don't look now but it's getting a whole lot worse, <a href="http://www.nytimes.com/2012/07/09/business/media/newspapers-are-running-out-of-time-to-adapt-to-digital-future.html?_r=2&amp;pagewanted=all">writes David Carr in The New York Times</a>.</p>
+
+<blockquote>
+  <p>Between operational fiascos and flailing attempts to slash costs on the fly, it’s clear that the print newspaper business, which has been fretting over a looming crisis for the last 15 years, is struggling to stay afloat. There are smart people trying to innovate, and tons of great journalism is published daily, but the financial distress is more visible by the week.</p>
+</blockquote>
+
+<p>And that those in the business better wise up to what's happening around them or they could be shit out of luck.</p>
+
+<blockquote>
+  <p>Those of us who work inside the racket like to think of our business as unique, but with underfunded pension plans, unserviceable debt and legacy manufacturing processes and union agreements, the newspaper industry looks a lot like, well, steel, autos and textiles.</p>
+</blockquote>
+
+<p>I'm glad I got out of the industry when I did, but incredibly saddened by the loss of one of our most important institutions. As a consumer of news, I know how important an independent press is to our democracy, but I'm bewildered as to what I can do to help keep it afloat.</p>
+
+<p>Any ideas?</p>
+,
+     "url": http://ryanmerrill.net/2012/07/10/read-over.html,
+     "content_html": <p>Think the newspaper industry was in trouble a few years ago? Don't look now but it's getting a whole lot worse, <a href="http://www.nytimes.com/2012/07/09/business/media/newspapers-are-running-out-of-time-to-adapt-to-digital-future.html?_r=2&amp;pagewanted=all">writes David Carr in The New York Times</a>.</p>
+
+<blockquote>
+  <p>Between operational fiascos and flailing attempts to slash costs on the fly, it’s clear that the print newspaper business, which has been fretting over a looming crisis for the last 15 years, is struggling to stay afloat. There are smart people trying to innovate, and tons of great journalism is published daily, but the financial distress is more visible by the week.</p>
+</blockquote>
+
+<p>And that those in the business better wise up to what's happening around them or they could be shit out of luck.</p>
+
+<blockquote>
+  <p>Those of us who work inside the racket like to think of our business as unique, but with underfunded pension plans, unserviceable debt and legacy manufacturing processes and union agreements, the newspaper industry looks a lot like, well, steel, autos and textiles.</p>
+</blockquote>
+
+<p>I'm glad I got out of the industry when I did, but incredibly saddened by the loss of one of our most important institutions. As a consumer of news, I know how important an independent press is to our democracy, but I'm bewildered as to what I can do to help keep it afloat.</p>
+
+<p>Any ideas?</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/06/22/burn-out.html,
+     "title": Lighting Couches on Fire,
+     "content_html": <p>An interesting <a href="http://www.theatlantic.com/magazine/archive/2012/07/the-right-to-be-forgotten/9044/">article in the Atlantic</a> is about the case between Argentinian pop star Virginia Da Cunha and Google about removing racy photos she no longer wants indexed.
+&gt; … she sued Google and Yahoo, demanding they take the pictures down. An Argentinean judge, invoking a version of “the right to be forgotten,” sided with Da Cunha, fined Google and Yahoo, and ordered them to delink all sites with racy pictures that included her name.</p>
+
+<p>With that victory, Da Cunha set a squirmy precedent for any of us who have done something that has been published on the Internet we might want taken down.</p>
+
+<p>When I was an editor at The Lantern, we published daily crime reports both online and in the print edition culled from Ohio State Campus Police. Graduated students would often call and ask for their crime reports and stories to be taken down from the website and I had a strict policy not to remove any published articles.</p>
+
+<p>I could sympathize with the requests since they would often say they lost a job because a prospective employer Googled their name and one of the top results was a detailed account of their past drunken behavior as an undergrad. But I worried that by removing the seemingly harmless crime reports, we would soon be on a slippery slope toward censorship and rewriting history. A crime report is one thing, but what if the university president called and asked for an exposé to be removed because he didn't agree with it?</p>
+
+<p>I think the solution for many of these cases is to take ownership of your identity on the Internet, so that when someone searches for you your edited version of yourself is among the top results. Your Twitter, LinkedIn or Facebook profile, would no doubt be better than a history of you doing lighting a couch on fire in the middle of High Street while you were an undergrad.</p>
+
+<p>Taking this a step further, I think it's extremely important for most people to have their own website outside of companies such as Google, Twitter and Facebook where they are able to manage their image to their heart's content. It doesn't have to be anything extreme. Hell, even a simple site such as <a href="http://timvandamme.com/">Tim Van Damme's</a> would suffice.</p>
+
+<p>It's more important than ever in this day and age to be mindful and aware of your Internet appearance, and it's really not too difficult to harness that power yourself as opposed to letting others dictate it for you.</p>
+
+,
+     "url": http://ryanmerrill.net/2012/06/22/burn-out.html,
+     "content_html": <p>An interesting <a href="http://www.theatlantic.com/magazine/archive/2012/07/the-right-to-be-forgotten/9044/">article in the Atlantic</a> is about the case between Argentinian pop star Virginia Da Cunha and Google about removing racy photos she no longer wants indexed.
+&gt; … she sued Google and Yahoo, demanding they take the pictures down. An Argentinean judge, invoking a version of “the right to be forgotten,” sided with Da Cunha, fined Google and Yahoo, and ordered them to delink all sites with racy pictures that included her name.</p>
+
+<p>With that victory, Da Cunha set a squirmy precedent for any of us who have done something that has been published on the Internet we might want taken down.</p>
+
+<p>When I was an editor at The Lantern, we published daily crime reports both online and in the print edition culled from Ohio State Campus Police. Graduated students would often call and ask for their crime reports and stories to be taken down from the website and I had a strict policy not to remove any published articles.</p>
+
+<p>I could sympathize with the requests since they would often say they lost a job because a prospective employer Googled their name and one of the top results was a detailed account of their past drunken behavior as an undergrad. But I worried that by removing the seemingly harmless crime reports, we would soon be on a slippery slope toward censorship and rewriting history. A crime report is one thing, but what if the university president called and asked for an exposé to be removed because he didn't agree with it?</p>
+
+<p>I think the solution for many of these cases is to take ownership of your identity on the Internet, so that when someone searches for you your edited version of yourself is among the top results. Your Twitter, LinkedIn or Facebook profile, would no doubt be better than a history of you doing lighting a couch on fire in the middle of High Street while you were an undergrad.</p>
+
+<p>Taking this a step further, I think it's extremely important for most people to have their own website outside of companies such as Google, Twitter and Facebook where they are able to manage their image to their heart's content. It doesn't have to be anything extreme. Hell, even a simple site such as <a href="http://timvandamme.com/">Tim Van Damme's</a> would suffice.</p>
+
+<p>It's more important than ever in this day and age to be mindful and aware of your Internet appearance, and it's really not too difficult to harness that power yourself as opposed to letting others dictate it for you.</p>
+
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/06/21/one-direction-margins.html,
+     "title": One-direction Margins,
+     "content_html": <p><a href="http://csswizardry.com/2012/06/single-direction-margin-declarations/">An interesting take</a> on something I've never really considered before: limiting your CSS margin declarations to one horizontal and one vertical direction, like so:</p>
+
+<pre class="prettyprint html">
+ div {
+   margin-left: 1.5em;
+   margin-top: 1.5em;
+ }
+</pre>
+
+<p>Which is opposed to how I normally write my margins with values on all four sides. The benefits of writing margins this way allow for greater control of vertical rhythm and also remove the worry of collapsible margins, which means one less thing to worry about. Nice trick.</p>
+,
+     "url": http://ryanmerrill.net/2012/06/21/one-direction-margins.html,
+     "content_html": <p><a href="http://csswizardry.com/2012/06/single-direction-margin-declarations/">An interesting take</a> on something I've never really considered before: limiting your CSS margin declarations to one horizontal and one vertical direction, like so:</p>
+
+<pre class="prettyprint html">
+ div {
+   margin-left: 1.5em;
+   margin-top: 1.5em;
+ }
+</pre>
+
+<p>Which is opposed to how I normally write my margins with values on all four sides. The benefits of writing margins this way allow for greater control of vertical rhythm and also remove the worry of collapsible margins, which means one less thing to worry about. Nice trick.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/05/29/best-of.html,
+     "title": Weekly Best-Of,
+     "content_html": <p>Monday was Memorial Day in the States, so I took the day off from posting the weekly roundup. Hope you enjoy this week's as much as I did.</p>
+
+<ol>
+  <li>
+    <h3 id="sweep-the-sleazehttpinformationarchitectsnetblogsweep-the-sleaze"><a href="http://informationarchitects.net/blog/sweep-the-sleaze/">Sweep the Sleaze</a></h3>
+    <p>Great post by Oliver Reichenstein about the pointlessness of the ubiquitous social media buttons that often accompany blog posts.
+&gt; If you’re unknown, social media buttons make you look like a dog waiting for the crumbs from the table. You might have magnificent writing skills and a lot to say, but you will still only get a few retweets and likes. Yes, it’s not fair, but that’s the way it is. If you’re known, you will get attention, even for the mediocre. If you’re not known, no matter how good you are, initially you won’t. That button that says “2 retweets” will be read as: “This is not so great, but please read it anyway? Please?”</p>
+  </li>
+  <li>
+    <h3 id="please-learn-to-writehttpwwwrandsinreposecomarchives20120516pleaselearntowritehtml"><a href="http://www.randsinrepose.com/archives/2012/05/16/please_learn_to_write.html">Please Learn to Write</a></h3>
+    <p>Rands offers some sage advice to anyone: learn to write well.
+&gt; Writing is the connective tissue that creates understanding. We, as social creatures, often better perform rituals to form understanding one on one, but good writing enables us to understand each other at scale.</p>
+  </li>
+  <li>
+    <h3 id="the-great-discontent-dan-cederholmhttpthegreatdiscontentcomdan-cederholm"><a href="http://thegreatdiscontent.com/dan-cederholm">The Great Discontent: Dan Cederholm</a></h3>
+    <p>Great interview with Dan Cederholm at The Great Discontent.</p>
+  </li>
+  <li>
+    <h3 id="instagram-for-webpageshttpinterconnectedorghome20120522instagramforwebpages"><a href="http://interconnected.org/home/2012/05/22/instagram_for_webpages">Instagram for Webpages</a></h3>
+    <p>An intriguing idea to resuscitate a dying medium: amateur web design popularized by both MySpace and Geocities. Say what you will about the quality of design coming from those sites, it was still awesome to have all of that expression captured.</p>
+  </li>
+</ol>
+,
+     "url": http://ryanmerrill.net/2012/05/29/best-of.html,
+     "content_html": <p>Monday was Memorial Day in the States, so I took the day off from posting the weekly roundup. Hope you enjoy this week's as much as I did.</p>
+
+<ol>
+  <li>
+    <h3 id="sweep-the-sleazehttpinformationarchitectsnetblogsweep-the-sleaze"><a href="http://informationarchitects.net/blog/sweep-the-sleaze/">Sweep the Sleaze</a></h3>
+    <p>Great post by Oliver Reichenstein about the pointlessness of the ubiquitous social media buttons that often accompany blog posts.
+&gt; If you’re unknown, social media buttons make you look like a dog waiting for the crumbs from the table. You might have magnificent writing skills and a lot to say, but you will still only get a few retweets and likes. Yes, it’s not fair, but that’s the way it is. If you’re known, you will get attention, even for the mediocre. If you’re not known, no matter how good you are, initially you won’t. That button that says “2 retweets” will be read as: “This is not so great, but please read it anyway? Please?”</p>
+  </li>
+  <li>
+    <h3 id="please-learn-to-writehttpwwwrandsinreposecomarchives20120516pleaselearntowritehtml"><a href="http://www.randsinrepose.com/archives/2012/05/16/please_learn_to_write.html">Please Learn to Write</a></h3>
+    <p>Rands offers some sage advice to anyone: learn to write well.
+&gt; Writing is the connective tissue that creates understanding. We, as social creatures, often better perform rituals to form understanding one on one, but good writing enables us to understand each other at scale.</p>
+  </li>
+  <li>
+    <h3 id="the-great-discontent-dan-cederholmhttpthegreatdiscontentcomdan-cederholm"><a href="http://thegreatdiscontent.com/dan-cederholm">The Great Discontent: Dan Cederholm</a></h3>
+    <p>Great interview with Dan Cederholm at The Great Discontent.</p>
+  </li>
+  <li>
+    <h3 id="instagram-for-webpageshttpinterconnectedorghome20120522instagramforwebpages"><a href="http://interconnected.org/home/2012/05/22/instagram_for_webpages">Instagram for Webpages</a></h3>
+    <p>An intriguing idea to resuscitate a dying medium: amateur web design popularized by both MySpace and Geocities. Say what you will about the quality of design coming from those sites, it was still awesome to have all of that expression captured.</p>
+  </li>
+</ol>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/05/25/facebook-camera.html,
+     "title": App Cannibalism,
+     "content_html": <p>I think I just found a replacement to the official Facebook app on my iPhone. It's the Facebook Camera app.</p>
+
+<p>Released this week, the <a href="http://itunes.apple.com/us/app/facebook-camera/id525898024?ls=1&amp;mt=8">excellent camera app</a> is one of the best designed mobile app experiences I've had. Not surprisingly it was designed by the <a href="http://www.mikematas.com">insanely talented Mike Matas</a>, who famously headed up Push Pop Press before it was sold to Facebook last year.</p>
+
+<p>The camera app's UI is intuitive, clean and simple in a way that the official app is distracting. By it's simple nature, the app removes the pointless status updates and what-I-read nonsense that is continually making Facebook noisy and cluttered.</p>
+
+<p>It's what Facebook should be: information from my friends who I care about presented in an uncluttered format.</p>
+
+<p>If this is what the mobile design team at Facebook is capable of, then consider me more than intrigued to see what they're cooking up if the rumors of a Facebook OS prove true.</p>
+
+<div class="image-row">
+<img src="../../../images/2012/05/25/img-login.png" alt="Facebook Login" class="naked left" />
+
+<img src="../../../images/2012/05/25/img-contact-sheet.png" alt="Facebook Photos" class="naked left" />
+
+<img src="../../../images/2012/05/25/img-stream.png" alt="Facebook Photos" class="naked left" />
+</div>
+,
+     "url": http://ryanmerrill.net/2012/05/25/facebook-camera.html,
+     "content_html": <p>I think I just found a replacement to the official Facebook app on my iPhone. It's the Facebook Camera app.</p>
+
+<p>Released this week, the <a href="http://itunes.apple.com/us/app/facebook-camera/id525898024?ls=1&amp;mt=8">excellent camera app</a> is one of the best designed mobile app experiences I've had. Not surprisingly it was designed by the <a href="http://www.mikematas.com">insanely talented Mike Matas</a>, who famously headed up Push Pop Press before it was sold to Facebook last year.</p>
+
+<p>The camera app's UI is intuitive, clean and simple in a way that the official app is distracting. By it's simple nature, the app removes the pointless status updates and what-I-read nonsense that is continually making Facebook noisy and cluttered.</p>
+
+<p>It's what Facebook should be: information from my friends who I care about presented in an uncluttered format.</p>
+
+<p>If this is what the mobile design team at Facebook is capable of, then consider me more than intrigued to see what they're cooking up if the rumors of a Facebook OS prove true.</p>
+
+<div class="image-row">
+<img src="../../../images/2012/05/25/img-login.png" alt="Facebook Login" class="naked left" />
+
+<img src="../../../images/2012/05/25/img-contact-sheet.png" alt="Facebook Photos" class="naked left" />
+
+<img src="../../../images/2012/05/25/img-stream.png" alt="Facebook Photos" class="naked left" />
+</div>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/05/21/best-of.html,
+     "title": Weekly Best-Of,
+     "content_html": <p>Great reading this week. Enjoy.</p>
+
+<ol>
+  <li>
+    <h3 id="the-listening-machinehttpwwwthelisteningmachineorg"><a href="http://www.thelisteningmachine.org/">The Listening Machine</a></h3>
+    <p>Wicked cool concept from the BBC and the Arts Council England, The Listening Machine is "an automated system that generates a continuous piece of music based on the activity of 500 Twitter users around the United Kingdom." If you're looking for some background music to listen to while designing, hacking, etc. then this is worth checking out.</p>
+  </li>
+  <li>
+    <h3 id="responsive-images-and-web-standards-at-the-turning-pointhttpwwwalistapartcomarticlesresponsive-images-and-web-standards-at-the-turning-point"><a href="http://www.alistapart.com/articles/responsive-images-and-web-standards-at-the-turning-point/">Responsive Images and Web Standards at the Turning Point</a></h3>
+    <p>A must-read article from A List Apart that lays out where we are at with responsive images and how best to move forward. Instead of writing with hosility toward the WHATWG, ALA takes the high-ground and offers an alternative to the awkward solution proposed by the WHATWG for responsive images.</p>
+  </li>
+  <li>
+    <h3 id="with-spotify-and-its-ilk-theres-no-my-in-music-anymorehttpwwwlatimescomentertainmentnewsla-ca-spotify-cloud-2012051302453673story"><a href="http://www.latimes.com/entertainment/news/la-ca-spotify-cloud-20120513,0,2453673.story">With Spotify and its ilk, there's no 'my' in music anymore</a></h3>
+    <p>I can't tell you how reluctant I am to hold on to my CD collection, even though I can't remember the last time I listened to one. Randall Roberts at the LA Times captures my feelings to a T:
+&gt; All this activity has rendered meaningless three pregnant words — "I have that" — which always gave me a metaphorical leg up as a geek, critic and would-be tastemaker. It's not easy to impress a kid with your Roc-A-Fella vinyl when she's got the entire Jay-Z catalog, complete with cameos, collaborations, covers and karaoke versions, a few finger-bumps away. "Garvey's Ghost," the stunning dub version of Burning Spear's "Marcus Garvey," used to be rare. Now it's been Spotified.</p>
+  </li>
+  <li>
+    <h3 id="zeldmans-web-design-manifesto-2012httpwwwzeldmancom20120518web-design-manifesto-2012"><a href="http://www.zeldman.com/2012/05/18/web-design-manifesto-2012/">Zeldman's Web Design Manifesto 2012</a></h3>
+    <p>Zeldman defends his recent redesign progress on his site by writing a great piece about how personal site designs should be the place where we can experiment and innovate.
+&gt; This is my personal site. There are many like it, but this one is mine. Designers with personal sites should experiment with new layout models when they can.
+&gt; This redesign is a response to ebooks, to web type, to mobile, and to wonderful applications like Instapaper and Readability that address the problem of most websites’ pointlessly cluttered interfaces and content-hostile text layouts by actually removing the designer from the equation.</p>
+  </li>
+  <li>
+    <h3 id="two-universeshttpwwwrandsinreposecomarchives20120509twouniverseshtml"><a href="http://www.randsinrepose.com/archives/2012/05/09/two_universes.html">Two Universes</a></h3>
+    <p>Rands has a great writeup about how rewarding users through your interface in order to intice them to keep learning can be a great idea.</p>
+  </li>
+</ol>
+,
+     "url": http://ryanmerrill.net/2012/05/21/best-of.html,
+     "content_html": <p>Great reading this week. Enjoy.</p>
+
+<ol>
+  <li>
+    <h3 id="the-listening-machinehttpwwwthelisteningmachineorg"><a href="http://www.thelisteningmachine.org/">The Listening Machine</a></h3>
+    <p>Wicked cool concept from the BBC and the Arts Council England, The Listening Machine is "an automated system that generates a continuous piece of music based on the activity of 500 Twitter users around the United Kingdom." If you're looking for some background music to listen to while designing, hacking, etc. then this is worth checking out.</p>
+  </li>
+  <li>
+    <h3 id="responsive-images-and-web-standards-at-the-turning-pointhttpwwwalistapartcomarticlesresponsive-images-and-web-standards-at-the-turning-point"><a href="http://www.alistapart.com/articles/responsive-images-and-web-standards-at-the-turning-point/">Responsive Images and Web Standards at the Turning Point</a></h3>
+    <p>A must-read article from A List Apart that lays out where we are at with responsive images and how best to move forward. Instead of writing with hosility toward the WHATWG, ALA takes the high-ground and offers an alternative to the awkward solution proposed by the WHATWG for responsive images.</p>
+  </li>
+  <li>
+    <h3 id="with-spotify-and-its-ilk-theres-no-my-in-music-anymorehttpwwwlatimescomentertainmentnewsla-ca-spotify-cloud-2012051302453673story"><a href="http://www.latimes.com/entertainment/news/la-ca-spotify-cloud-20120513,0,2453673.story">With Spotify and its ilk, there's no 'my' in music anymore</a></h3>
+    <p>I can't tell you how reluctant I am to hold on to my CD collection, even though I can't remember the last time I listened to one. Randall Roberts at the LA Times captures my feelings to a T:
+&gt; All this activity has rendered meaningless three pregnant words — "I have that" — which always gave me a metaphorical leg up as a geek, critic and would-be tastemaker. It's not easy to impress a kid with your Roc-A-Fella vinyl when she's got the entire Jay-Z catalog, complete with cameos, collaborations, covers and karaoke versions, a few finger-bumps away. "Garvey's Ghost," the stunning dub version of Burning Spear's "Marcus Garvey," used to be rare. Now it's been Spotified.</p>
+  </li>
+  <li>
+    <h3 id="zeldmans-web-design-manifesto-2012httpwwwzeldmancom20120518web-design-manifesto-2012"><a href="http://www.zeldman.com/2012/05/18/web-design-manifesto-2012/">Zeldman's Web Design Manifesto 2012</a></h3>
+    <p>Zeldman defends his recent redesign progress on his site by writing a great piece about how personal site designs should be the place where we can experiment and innovate.
+&gt; This is my personal site. There are many like it, but this one is mine. Designers with personal sites should experiment with new layout models when they can.
+&gt; This redesign is a response to ebooks, to web type, to mobile, and to wonderful applications like Instapaper and Readability that address the problem of most websites’ pointlessly cluttered interfaces and content-hostile text layouts by actually removing the designer from the equation.</p>
+  </li>
+  <li>
+    <h3 id="two-universeshttpwwwrandsinreposecomarchives20120509twouniverseshtml"><a href="http://www.randsinrepose.com/archives/2012/05/09/two_universes.html">Two Universes</a></h3>
+    <p>Rands has a great writeup about how rewarding users through your interface in order to intice them to keep learning can be a great idea.</p>
+  </li>
+</ol>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/05/14/qc-merge.html,
+     "title": QCMerge 2012,
+     "content_html": <p>May 10 - 11, 2012 was the innaugural year for <a href="http://www.qcmerge.com/">QCMerge</a>, a web conference in Cincinnati, and I couldn't be more proud of how it went off.</p>
+
+<p>I've been involved in QCMerge since it's initial planning stages thanks to my work at <a href="http://www.helloample.com/">Ample</a>. There's a ton of people to thank who put on QCMerge, especially the dudes at <a href="http://gaslightsoftware.com/">Gaslight Software</a>, who carried the brunt of the work. There's way too many others to thank personally, so head on over the the <a href="http://qcmerge.com/">QCMerge site</a> and see the sponsors and organizers for yourself.</p>
+
+<p>I can't say enough about the quality of the speakers, and how everyone in the Cincinnati community came together and participated in something extremely motivating and rewarding.</p>
+
+<p><a href="http://twitter.com/uhlenbrock">Bobby Uhlenbrock</a> and I gave a talk on <a href="https://speakerdeck.com/u/procload/p/responsibly-responsive-web-design">Responsive Web Design</a>, and posted the slides <a href="https://speakerdeck.com/u/procload/p/responsibly-responsive-web-design">here</a>. The talk was about how the process of designing and developing web sites responsively upends the traditional web design process as we know it, and hopefully provides some solutions.</p>
+
+<p>We designed and developed the site <a href="http://www.refreshcincy.com">RefreshCincy</a> for the talk, and officially launched the group at the conference. We hope to build on the momentum generated at QCMerge with RefreshCincy, so follow <a href="http://twitter.com/refreshcincy">RefreshCincy on Twitter</a> for updates.</p>
+
+<p>It was the first time I gave a public talk, and going into it I didn't know what to expect. But the crowd at QCMerge was awesome, and I couldn't have asked for a better audience for me to lose my speaking virginity to. I'm definitely stoked to start planning 2013's QCMerge and a chance to further interact with the community at RefreshCincy in the coming months.</p>
+
+,
+     "url": http://ryanmerrill.net/2012/05/14/qc-merge.html,
+     "content_html": <p>May 10 - 11, 2012 was the innaugural year for <a href="http://www.qcmerge.com/">QCMerge</a>, a web conference in Cincinnati, and I couldn't be more proud of how it went off.</p>
+
+<p>I've been involved in QCMerge since it's initial planning stages thanks to my work at <a href="http://www.helloample.com/">Ample</a>. There's a ton of people to thank who put on QCMerge, especially the dudes at <a href="http://gaslightsoftware.com/">Gaslight Software</a>, who carried the brunt of the work. There's way too many others to thank personally, so head on over the the <a href="http://qcmerge.com/">QCMerge site</a> and see the sponsors and organizers for yourself.</p>
+
+<p>I can't say enough about the quality of the speakers, and how everyone in the Cincinnati community came together and participated in something extremely motivating and rewarding.</p>
+
+<p><a href="http://twitter.com/uhlenbrock">Bobby Uhlenbrock</a> and I gave a talk on <a href="https://speakerdeck.com/u/procload/p/responsibly-responsive-web-design">Responsive Web Design</a>, and posted the slides <a href="https://speakerdeck.com/u/procload/p/responsibly-responsive-web-design">here</a>. The talk was about how the process of designing and developing web sites responsively upends the traditional web design process as we know it, and hopefully provides some solutions.</p>
+
+<p>We designed and developed the site <a href="http://www.refreshcincy.com">RefreshCincy</a> for the talk, and officially launched the group at the conference. We hope to build on the momentum generated at QCMerge with RefreshCincy, so follow <a href="http://twitter.com/refreshcincy">RefreshCincy on Twitter</a> for updates.</p>
+
+<p>It was the first time I gave a public talk, and going into it I didn't know what to expect. But the crowd at QCMerge was awesome, and I couldn't have asked for a better audience for me to lose my speaking virginity to. I'm definitely stoked to start planning 2013's QCMerge and a chance to further interact with the community at RefreshCincy in the coming months.</p>
+
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/05/14/best-of.html,
+     "title": Weekly Best-Of,
+     "content_html": <p>Been crazy-busy this week, so I only had a chance to really enjoy four articles. Hope you enjoy them, too.</p>
+
+<ol>
+  <li>
+    <h3 id="tomorrows-web-type-todayhttpelliotjaystockscomblogthe-fine-flourish-of-the-ligature"><a href="http://elliotjaystocks.com/blog/the-fine-flourish-of-the-ligature/">Tomorrow's Web Type Today</a></h3>
+    <p>Elliott Jay Stocks has been on a tear lately publishing three articles about what's possible on the bleeding edge of Web type with his Tomorrow's Web Type Today series. Definitely some good inspiration here to check out what's possible with some Open Type features on the web.</p>
+    <ul>
+      <li><a href="http://elliotjaystocks.com/blog/the-fine-flourish-of-the-ligature/">The Fine Flourish of the Ligature</a></li>
+      <li><a href="http://elliotjaystocks.com/blog/expert-subsets-for-css-in-123/">Expert Subsets in CSS3</a></li>
+      <li><a href="http://elliotjaystocks.com/blog/say-it-with-a-swash/">Say it with a Swash</a></li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="why-flipping-through-paper-like-pages-endures-in-the-digital-worldhttpwwwwiredcomgadgetlab201205why-flipping-through-paper-like-pages-endures-in-the-digital-worldall1"><a href="http://www.wired.com/gadgetlab/2012/05/why-flipping-through-paper-like-pages-endures-in-the-digital-world/all/1">Why Flipping Through Paper-Like Pages Endures in the Digital World</a></h3>
+    <p>I'm no fan of the skeumorphic page-flipping effect found in iBooks for the iPad, but <a href="http://marco.org/">Marco</a> shares some thoughts on why he implemented this in his latest release of Instapaper.
+&gt; The most ‘authentic’ web-article advancement method, to me, is just scrolling. But I can’t deny that I like pagination better. Scrolling through long articles just feels tedious.</p>
+  </li>
+  <li>
+    <h3 id="the-bulk-of-all-human-utterances-is-plagiarismhttpwwwlettersofnotecom201205bulk-of-all-human-utterances-ishtml"><a href="http://www.lettersofnote.com/2012/05/bulk-of-all-human-utterances-is.html">The bulk of all human utterances is plagiarism</a></h3>
+    <p>In a letter to Helen Keller in 1903, Mark Twain sums up why all of human knowledge is plagiarism of one form or another:
+&gt; …ninety-nine parts of all things that proceed from the intellect are plagiarisms, pure and simple; and the lesson ought to make us modest.</p>
+  </li>
+  <li>
+    <h3 id="what-is-and-is-not-a-technology-companyhttpal3xnet20120508what-is-and-is-not-a-technology-companyhtml"><a href="http://al3x.net/2012/05/08/what-is-and-is-not-a-technology-company.html">What Is and Is Not A Technology Company</a></h3>
+    <p>I never even thought about it before reading this, but Alex Payne of Simple explains what it means to be a technology company, and why many – such as Zappos, Google, Amazon, and many others – aren't technology companies at all.
+&gt; Put more crudely: sticking feathers up your butt does not make you a chicken, and having an engineer or a data scientist on staff does not make you a technology company.</p>
+  </li>
+</ol>
+,
+     "url": http://ryanmerrill.net/2012/05/14/best-of.html,
+     "content_html": <p>Been crazy-busy this week, so I only had a chance to really enjoy four articles. Hope you enjoy them, too.</p>
+
+<ol>
+  <li>
+    <h3 id="tomorrows-web-type-todayhttpelliotjaystockscomblogthe-fine-flourish-of-the-ligature"><a href="http://elliotjaystocks.com/blog/the-fine-flourish-of-the-ligature/">Tomorrow's Web Type Today</a></h3>
+    <p>Elliott Jay Stocks has been on a tear lately publishing three articles about what's possible on the bleeding edge of Web type with his Tomorrow's Web Type Today series. Definitely some good inspiration here to check out what's possible with some Open Type features on the web.</p>
+    <ul>
+      <li><a href="http://elliotjaystocks.com/blog/the-fine-flourish-of-the-ligature/">The Fine Flourish of the Ligature</a></li>
+      <li><a href="http://elliotjaystocks.com/blog/expert-subsets-for-css-in-123/">Expert Subsets in CSS3</a></li>
+      <li><a href="http://elliotjaystocks.com/blog/say-it-with-a-swash/">Say it with a Swash</a></li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="why-flipping-through-paper-like-pages-endures-in-the-digital-worldhttpwwwwiredcomgadgetlab201205why-flipping-through-paper-like-pages-endures-in-the-digital-worldall1"><a href="http://www.wired.com/gadgetlab/2012/05/why-flipping-through-paper-like-pages-endures-in-the-digital-world/all/1">Why Flipping Through Paper-Like Pages Endures in the Digital World</a></h3>
+    <p>I'm no fan of the skeumorphic page-flipping effect found in iBooks for the iPad, but <a href="http://marco.org/">Marco</a> shares some thoughts on why he implemented this in his latest release of Instapaper.
+&gt; The most ‘authentic’ web-article advancement method, to me, is just scrolling. But I can’t deny that I like pagination better. Scrolling through long articles just feels tedious.</p>
+  </li>
+  <li>
+    <h3 id="the-bulk-of-all-human-utterances-is-plagiarismhttpwwwlettersofnotecom201205bulk-of-all-human-utterances-ishtml"><a href="http://www.lettersofnote.com/2012/05/bulk-of-all-human-utterances-is.html">The bulk of all human utterances is plagiarism</a></h3>
+    <p>In a letter to Helen Keller in 1903, Mark Twain sums up why all of human knowledge is plagiarism of one form or another:
+&gt; …ninety-nine parts of all things that proceed from the intellect are plagiarisms, pure and simple; and the lesson ought to make us modest.</p>
+  </li>
+  <li>
+    <h3 id="what-is-and-is-not-a-technology-companyhttpal3xnet20120508what-is-and-is-not-a-technology-companyhtml"><a href="http://al3x.net/2012/05/08/what-is-and-is-not-a-technology-company.html">What Is and Is Not A Technology Company</a></h3>
+    <p>I never even thought about it before reading this, but Alex Payne of Simple explains what it means to be a technology company, and why many – such as Zappos, Google, Amazon, and many others – aren't technology companies at all.
+&gt; Put more crudely: sticking feathers up your butt does not make you a chicken, and having an engineer or a data scientist on staff does not make you a technology company.</p>
+  </li>
+</ol>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/05/09/intro-typeface.html,
+     "title": Intro Font Family,
+     "content_html": <p>Intro is a great font family release from the guys behind the popular Museo typeface. Download two styles of it for <a href="http://fontfabric.com/intro-free-font/">free here</a>, or <a href="http://www.myfonts.com/fonts/font-fabric/intro/">buy all 26 font styles here</a> for $99.</p>
+
+<p><img src="../../../images/2012/05/09/img-intro.png" alt="Intro Font Family" class="naked" /></p>
+,
+     "url": http://ryanmerrill.net/2012/05/09/intro-typeface.html,
+     "content_html": <p>Intro is a great font family release from the guys behind the popular Museo typeface. Download two styles of it for <a href="http://fontfabric.com/intro-free-font/">free here</a>, or <a href="http://www.myfonts.com/fonts/font-fabric/intro/">buy all 26 font styles here</a> for $99.</p>
+
+<p><img src="../../../images/2012/05/09/img-intro.png" alt="Intro Font Family" class="naked" /></p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/05/07/best-of.html,
+     "title": Best of April 30 - May 7,
+     "content_html": <p>Back with five more. I make no promises to select articles that were published in the last week, just those I found interesting. Sort of an edited <a href="http://www.instapaper.com/">Instapaper</a> liked feed, if you will.</p>
+
+<ol>
+  <li>
+    <h3 id="stephen-king-tax-me-for-fucks-sakehttpwwwthedailybeastcomarticles20120430stephen-king-tax-me-for-f-s-sakehtml"><a href="http://www.thedailybeast.com/articles/2012/04/30/stephen-king-tax-me-for-f-s-sake.html">Stephen King: Tax Me, for Fuck’s Sake!</a></h3>
+    <p>Stephen King, yes that Stephen King, writes a damned-fine essay scolding the superrich, including himself.
+&gt; (The superrich)…  were fortunate enough to be born in a country where upward mobility is possible (a subject upon which Barack Obama can speak with the authority of experience), but where the channels making such upward mobility possible are being increasingly clogged. That it’s not fair to ask the middle class to assume a disproportionate amount of the tax burden. Not fair? It’s un-fucking-American is what it is. I don’t want you to apologize for being rich; I want you to acknowledge that in America, we all should have to pay our fair share.</p>
+  </li>
+  <li>
+    <h3 id="if-your-websites-full-of-assholes-its-your-faulthttpdashescomanil201107if-your-websites-full-of-assholes-its-your-faulthtml"><a href="http://dashes.com/anil/2011/07/if-your-websites-full-of-assholes-its-your-fault.html">If your website's full of assholes, it's your fault</a></h3>
+    <p>One of my favorite writers – Anil Dash – weighs in on why it's so important for newspapers, blogs and all editorial websites to place a strong emphasis on curating the discussions on their site. I'll never turn on comments for this site, but that's just because I don't have the resources to properly moderate them.</p>
+  </li>
+  <li>
+    <h3 id="when-the-nba-was-younghttpcnnsiprintthisclickabilitycomptcptexpiretitlesowassiwriterfrankdeford2cwhocuthisteethona-042312-sivaulturlid476132731actioncptpartnerid289881fbyurlhttp3a2f2fsportsillustratedcnncom2fvault2farticle2fmagazine2fmag11973922findexhtm"><a href="http://cnnsi.printthis.clickability.com/pt/cpt?expire=&amp;title=So+was+SI+writer+Frank+Deford%2C+who+cut+his+teeth+on+a+-+04.23.12+-+SI+Vault&amp;urlID=476132731&amp;action=cpt&amp;partnerID=289881&amp;fb=Y&amp;url=http%3A%2F%2Fsportsillustrated.cnn.com%2Fvault%2Farticle%2Fmagazine%2FMAG1197392%2Findex.htm">When the NBA was Young</a></h3>
+    <p>Sports Illustrator writer Frank Deford chronicles his days of being a beat reporter in the the early days of the NBA. I'm a huge NBA fan, and it's hard to imagine the league being like this especially in the age of Lebron James.</p>
+  </li>
+  <li>
+    <h3 id="i-meant-this-not-that-but-yeah-i-meant-ithttpdavidsimoncomi-meant-this"><a href="http://davidsimon.com/i-meant-this/">I meant this, not that. But yeah, I meant it.</a></h3>
+    <p>One of the best thing I've read in quite awhile. The creator of The Wire explains his comments about "criticizing" some viewers of The Wire, while deftly taking down Bill Simmons for wimping out during his interview with President Obama:
+&gt; If he were a hectoring asshole, an argumentative scold, a fucking killjoy, he might realize that he has The Man right there, and that he is at the end of the day acting as, well, a journalist.  So if anything is to be said about that show, well, here is a rare chance to break some ground.  He might swallow hard, seize the moment and say something along the lines of, “Mr. President.  I know you’ve said you’re a fan of The Wire.  Well, one of that show’s basic critiques is that the drug war is amoral.   More Americans are now in prison than ever before, and the percentage of violent offenders in prison is lower than ever.  We are now the jailingest society in the world, incarcerating more of each other than even totalitarian states.  How can we go on supporting this?"
+&gt; Balls out like that.  Truth to power,  brah.  Get some.</p>
+  </li>
+  <li>
+    <h3 id="wendell-e-berrys-award-winning-2012-jefferson-lecturehttpwwwnehgovaboutawardsjefferson-lecturewendell-e-berry-lecture"><a href="http://www.neh.gov/about/awards/jefferson-lecture/wendell-e-berry-lecture">Wendell E. Berry's award-winning 2012 Jefferson Lecture.</a></h3>
+    <p>Way too many things to quote in here. Make sure you have 30 - 45 minutes, grab a cup of coffee and read the hell out of this, dammit.</p>
+  </li>
+</ol>
+,
+     "url": http://ryanmerrill.net/2012/05/07/best-of.html,
+     "content_html": <p>Back with five more. I make no promises to select articles that were published in the last week, just those I found interesting. Sort of an edited <a href="http://www.instapaper.com/">Instapaper</a> liked feed, if you will.</p>
+
+<ol>
+  <li>
+    <h3 id="stephen-king-tax-me-for-fucks-sakehttpwwwthedailybeastcomarticles20120430stephen-king-tax-me-for-f-s-sakehtml"><a href="http://www.thedailybeast.com/articles/2012/04/30/stephen-king-tax-me-for-f-s-sake.html">Stephen King: Tax Me, for Fuck’s Sake!</a></h3>
+    <p>Stephen King, yes that Stephen King, writes a damned-fine essay scolding the superrich, including himself.
+&gt; (The superrich)…  were fortunate enough to be born in a country where upward mobility is possible (a subject upon which Barack Obama can speak with the authority of experience), but where the channels making such upward mobility possible are being increasingly clogged. That it’s not fair to ask the middle class to assume a disproportionate amount of the tax burden. Not fair? It’s un-fucking-American is what it is. I don’t want you to apologize for being rich; I want you to acknowledge that in America, we all should have to pay our fair share.</p>
+  </li>
+  <li>
+    <h3 id="if-your-websites-full-of-assholes-its-your-faulthttpdashescomanil201107if-your-websites-full-of-assholes-its-your-faulthtml"><a href="http://dashes.com/anil/2011/07/if-your-websites-full-of-assholes-its-your-fault.html">If your website's full of assholes, it's your fault</a></h3>
+    <p>One of my favorite writers – Anil Dash – weighs in on why it's so important for newspapers, blogs and all editorial websites to place a strong emphasis on curating the discussions on their site. I'll never turn on comments for this site, but that's just because I don't have the resources to properly moderate them.</p>
+  </li>
+  <li>
+    <h3 id="when-the-nba-was-younghttpcnnsiprintthisclickabilitycomptcptexpiretitlesowassiwriterfrankdeford2cwhocuthisteethona-042312-sivaulturlid476132731actioncptpartnerid289881fbyurlhttp3a2f2fsportsillustratedcnncom2fvault2farticle2fmagazine2fmag11973922findexhtm"><a href="http://cnnsi.printthis.clickability.com/pt/cpt?expire=&amp;title=So+was+SI+writer+Frank+Deford%2C+who+cut+his+teeth+on+a+-+04.23.12+-+SI+Vault&amp;urlID=476132731&amp;action=cpt&amp;partnerID=289881&amp;fb=Y&amp;url=http%3A%2F%2Fsportsillustrated.cnn.com%2Fvault%2Farticle%2Fmagazine%2FMAG1197392%2Findex.htm">When the NBA was Young</a></h3>
+    <p>Sports Illustrator writer Frank Deford chronicles his days of being a beat reporter in the the early days of the NBA. I'm a huge NBA fan, and it's hard to imagine the league being like this especially in the age of Lebron James.</p>
+  </li>
+  <li>
+    <h3 id="i-meant-this-not-that-but-yeah-i-meant-ithttpdavidsimoncomi-meant-this"><a href="http://davidsimon.com/i-meant-this/">I meant this, not that. But yeah, I meant it.</a></h3>
+    <p>One of the best thing I've read in quite awhile. The creator of The Wire explains his comments about "criticizing" some viewers of The Wire, while deftly taking down Bill Simmons for wimping out during his interview with President Obama:
+&gt; If he were a hectoring asshole, an argumentative scold, a fucking killjoy, he might realize that he has The Man right there, and that he is at the end of the day acting as, well, a journalist.  So if anything is to be said about that show, well, here is a rare chance to break some ground.  He might swallow hard, seize the moment and say something along the lines of, “Mr. President.  I know you’ve said you’re a fan of The Wire.  Well, one of that show’s basic critiques is that the drug war is amoral.   More Americans are now in prison than ever before, and the percentage of violent offenders in prison is lower than ever.  We are now the jailingest society in the world, incarcerating more of each other than even totalitarian states.  How can we go on supporting this?"
+&gt; Balls out like that.  Truth to power,  brah.  Get some.</p>
+  </li>
+  <li>
+    <h3 id="wendell-e-berrys-award-winning-2012-jefferson-lecturehttpwwwnehgovaboutawardsjefferson-lecturewendell-e-berry-lecture"><a href="http://www.neh.gov/about/awards/jefferson-lecture/wendell-e-berry-lecture">Wendell E. Berry's award-winning 2012 Jefferson Lecture.</a></h3>
+    <p>Way too many things to quote in here. Make sure you have 30 - 45 minutes, grab a cup of coffee and read the hell out of this, dammit.</p>
+  </li>
+</ol>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/05/01/wasted-minds.html,
+     "title": Wasted Minds,
+     "content_html": <p>Paul <a href="http://www.nytimes.com/2012/04/30/opinion/krugman-wasting-our-minds.html">Krugman nails it</a> describing the debt conservatives are passing on to the youth of America:
+&gt; But there’s also a war on the young, which is just as real even if it’s better disguised. And it’s doing immense harm, not just to the young, but to the nation’s future…
+&gt; We should be expanding student aid, not slashing it. And we should reverse the de facto austerity policies that are holding back the U.S. economy…
+&gt; …refusing to spend that money is foolish and shortsighted even in purely fiscal terms. Remember, the young aren’t just America’s future; they’re the future of the tax base, too.</p>
+
+,
+     "url": http://ryanmerrill.net/2012/05/01/wasted-minds.html,
+     "content_html": <p>Paul <a href="http://www.nytimes.com/2012/04/30/opinion/krugman-wasting-our-minds.html">Krugman nails it</a> describing the debt conservatives are passing on to the youth of America:
+&gt; But there’s also a war on the young, which is just as real even if it’s better disguised. And it’s doing immense harm, not just to the young, but to the nation’s future…
+&gt; We should be expanding student aid, not slashing it. And we should reverse the de facto austerity policies that are holding back the U.S. economy…
+&gt; …refusing to spend that money is foolish and shortsighted even in purely fiscal terms. Remember, the young aren’t just America’s future; they’re the future of the tax base, too.</p>
+
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/05/01/hustle.html,
+     "title": Don't stop hustling,
+     "content_html": <p>More <a href="http://sethgodin.typepad.com/seths_blog/2012/05/volatility-and-value.html">sage advice from Seth Godin</a>:
+&gt; "Consistently showing up on the radar of the right audience is more highly prized than reaching the masses, once then done. This works for every career…" </p>
+,
+     "url": http://ryanmerrill.net/2012/05/01/hustle.html,
+     "content_html": <p>More <a href="http://sethgodin.typepad.com/seths_blog/2012/05/volatility-and-value.html">sage advice from Seth Godin</a>:
+&gt; "Consistently showing up on the radar of the right audience is more highly prized than reaching the masses, once then done. This works for every career…" </p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/04/30/best-of.html,
+     "title": Weekly Best-Of,
+     "content_html": <p>I'm a big fan of edited lists of readings that take the work out of browsing articles upon articles just to find some decent content. One of my favorites is the now (apparently) defunct <a href="http://tthor.com/archive/">TTHOR</a>, which was basically a weekly-best of list of readings and videos for geeks.</p>
+
+<p>I appreciated its simplicity, but it sometimes had too much content to be digested in an afternoon. I'd prefer if the list were whittled down to somewhere between 3 - 5 items, since I find it hard to absorb much more than that in a single sitting.</p>
+
+<p>So I'm going to try to put together a weekly list of recommended readings that I enjoyed, and I hope you will, too. Who knows, maybe I'll start an email newsletter of my own one day.</p>
+
+<ol>
+  <li>
+    <h3 id="the-development-of-wayfinding-sans-prohttpilovetypographycom20120419the-design-of-a-signage-typeface"><a href="http://ilovetypography.com/2012/04/19/the-design-of-a-signage-typeface/">The Development of Wayfinding Sans Pro</a></h3>
+    <p>Writing at I Love Typography, Ralf Herrmann does a great job of explaining his design decisions behind creating the Wayfinding Sans Pro typeface. The design and art direction of the article is top notch to boot.</p>
+  </li>
+  <li>
+    <h3 id="craig-mods-a-pointable-we-serieshttpcraigmodcomsatellitepointable01"><a href="http://craigmod.com/satellite/pointable_01/">Craig Mod's, a pointable we series</a></h3>
+    <p>Craig Mod follows up his wonderful <a href="http://craigmod.com/journal/digital_physical/">The Digital &lt;–&gt; Physical</a> essay with three short articles about linking on the web and what it really means for content to exist.</p>
+  </li>
+  <li>
+    <h3 id="building-with-content-choreographyhttpwwwjordanmcoukpost21863299677building-with-content-choreography"><a href="http://www.jordanm.co.uk/post/21863299677/building-with-content-choreography">Building with Content Choreography</a></h3>
+    <p>Jordan Moore introduces and explains the basics behind the CSS3 flexbox property, and how it can be an invaluable tool for Responsive Web Design, especially on small-width devices such as phones.</p>
+  </li>
+  <li>
+    <h3 id="choose-your-adventurehttpwarpspirecomtalkschooseyouradventure"><a href="http://warpspire.com/talks/chooseyouradventure/">Choose Your Adventure!</a></h3>
+    <p>And finally Kyle Neath shares his slides from a recent talk. He writes:
+&gt; Designers can’t be developers and companies who build web apps can’t build desktop apps. Well, maybe in 1997 — but it’s 2012. Things done changed. It’s time to focus on building amazing companies full of fantastic people. Build amazing apps that people love to use. Screw false specialization, iOS shops, and mobile-only products.
+Amen to that.</p>
+  </li>
+</ol>
+,
+     "url": http://ryanmerrill.net/2012/04/30/best-of.html,
+     "content_html": <p>I'm a big fan of edited lists of readings that take the work out of browsing articles upon articles just to find some decent content. One of my favorites is the now (apparently) defunct <a href="http://tthor.com/archive/">TTHOR</a>, which was basically a weekly-best of list of readings and videos for geeks.</p>
+
+<p>I appreciated its simplicity, but it sometimes had too much content to be digested in an afternoon. I'd prefer if the list were whittled down to somewhere between 3 - 5 items, since I find it hard to absorb much more than that in a single sitting.</p>
+
+<p>So I'm going to try to put together a weekly list of recommended readings that I enjoyed, and I hope you will, too. Who knows, maybe I'll start an email newsletter of my own one day.</p>
+
+<ol>
+  <li>
+    <h3 id="the-development-of-wayfinding-sans-prohttpilovetypographycom20120419the-design-of-a-signage-typeface"><a href="http://ilovetypography.com/2012/04/19/the-design-of-a-signage-typeface/">The Development of Wayfinding Sans Pro</a></h3>
+    <p>Writing at I Love Typography, Ralf Herrmann does a great job of explaining his design decisions behind creating the Wayfinding Sans Pro typeface. The design and art direction of the article is top notch to boot.</p>
+  </li>
+  <li>
+    <h3 id="craig-mods-a-pointable-we-serieshttpcraigmodcomsatellitepointable01"><a href="http://craigmod.com/satellite/pointable_01/">Craig Mod's, a pointable we series</a></h3>
+    <p>Craig Mod follows up his wonderful <a href="http://craigmod.com/journal/digital_physical/">The Digital &lt;–&gt; Physical</a> essay with three short articles about linking on the web and what it really means for content to exist.</p>
+  </li>
+  <li>
+    <h3 id="building-with-content-choreographyhttpwwwjordanmcoukpost21863299677building-with-content-choreography"><a href="http://www.jordanm.co.uk/post/21863299677/building-with-content-choreography">Building with Content Choreography</a></h3>
+    <p>Jordan Moore introduces and explains the basics behind the CSS3 flexbox property, and how it can be an invaluable tool for Responsive Web Design, especially on small-width devices such as phones.</p>
+  </li>
+  <li>
+    <h3 id="choose-your-adventurehttpwarpspirecomtalkschooseyouradventure"><a href="http://warpspire.com/talks/chooseyouradventure/">Choose Your Adventure!</a></h3>
+    <p>And finally Kyle Neath shares his slides from a recent talk. He writes:
+&gt; Designers can’t be developers and companies who build web apps can’t build desktop apps. Well, maybe in 1997 — but it’s 2012. Things done changed. It’s time to focus on building amazing companies full of fantastic people. Build amazing apps that people love to use. Screw false specialization, iOS shops, and mobile-only products.
+Amen to that.</p>
+  </li>
+</ol>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/04/26/google-social.html,
+     "title": Google's Social Problems,
+     "content_html": <p>Dustin Curtis nails it <a href="http://dcurt.is/googles-coherent-bouquet">describing Google's social problems</a>:
+&gt; Google's current predicament with social is similar to the one Microsoft faced with its tablet PC initiative. Google has about 150 legacy core products which have slowly evolved into great tools over the past decade, but which were designed and built with the complete absence of consideration for any social interaction. Google+ is an attempt to shoe-horn Google's legacy products into things that are compatible with a new set of social interaction paradigms.</p>
+
+<p>I'm all for Google succeeding in the social space, but I, like Dustin, think they need to completely rethink their approach from the groundup, just as Apple did with iOS.</p>
+,
+     "url": http://ryanmerrill.net/2012/04/26/google-social.html,
+     "content_html": <p>Dustin Curtis nails it <a href="http://dcurt.is/googles-coherent-bouquet">describing Google's social problems</a>:
+&gt; Google's current predicament with social is similar to the one Microsoft faced with its tablet PC initiative. Google has about 150 legacy core products which have slowly evolved into great tools over the past decade, but which were designed and built with the complete absence of consideration for any social interaction. Google+ is an attempt to shoe-horn Google's legacy products into things that are compatible with a new set of social interaction paradigms.</p>
+
+<p>I'm all for Google succeeding in the social space, but I, like Dustin, think they need to completely rethink their approach from the groundup, just as Apple did with iOS.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/04/26/automobile-for-mind.html,
+     "title": An Automobile for our Mind?,
+     "content_html": <p>I love it when Kottke writes <a href="http://kottke.org/12/04/the-iphone-an-automobile-for-your-mind">longer posts combining content from multiple sources</a> which all relate to a central point.
+&gt; Perhaps then the iPhone is an automobile for our mind in that it allows us to go anywhere very quickly but isolates us along the way.</p>
+,
+     "url": http://ryanmerrill.net/2012/04/26/automobile-for-mind.html,
+     "content_html": <p>I love it when Kottke writes <a href="http://kottke.org/12/04/the-iphone-an-automobile-for-your-mind">longer posts combining content from multiple sources</a> which all relate to a central point.
+&gt; Perhaps then the iPhone is an automobile for our mind in that it allows us to go anywhere very quickly but isolates us along the way.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/04/25/two-things.html,
+     "title": Two Things, Wildly Different yet Similar,
+     "content_html": <p>I wish I had either of these attention spans.</p>
+
+<p>The first, <a href="http://www.nytimes.com/2012/04/15/magazine/robert-caros-big-dig.html?_r=1&amp;ref=robertacaro&amp;pagewanted=all">Robert Caro</a>'s for spending almost 40 years writing a multi-volume biography of Lyndon Johnson:
+&gt; Caro is the last of the 19th-century biographers, the kind who believe that the life of a great or powerful man deserves not just a slim volume, or even a fat one, but a whole shelf full… Caro once spent several nights alone in a sleeping bag in the Texas Hill Country (where Johnson was from) so he could understand what rural isolation felt like there.</p>
+
+<p>Insanity.</p>
+
+<p>The second is Shaun Inman's, who has been on a tear lately by first releasing <a href="http://shauninman.com/lastrocket/">The Last Rocket</a> for iOS and just this past weekend participating in antoher <a href="http://www.ludumdare.com/">Ludum Dare</a> competition, where the goal is to create a fully playable game in 72 hours. He writes about <a href="http://www.shauninman.com/archive/2012/04/24/millinaut_postmortem">the process here</a>:
+&gt; Ludum Dare is always a rewarding experience. You have a deadline and a direction and 48 (or 72) hours to see where they take you. At the end of the weekend you have something that didn’t exist before. It’s simultaneously exhausting and rejuvenating.</p>
+
+<p>Also, insanity. There's something to be said about both the similarity of both of these things. The first is a slow burn, while the other burns so bright and so fast. I don't know which is better, and does it really matter?</p>
+,
+     "url": http://ryanmerrill.net/2012/04/25/two-things.html,
+     "content_html": <p>I wish I had either of these attention spans.</p>
+
+<p>The first, <a href="http://www.nytimes.com/2012/04/15/magazine/robert-caros-big-dig.html?_r=1&amp;ref=robertacaro&amp;pagewanted=all">Robert Caro</a>'s for spending almost 40 years writing a multi-volume biography of Lyndon Johnson:
+&gt; Caro is the last of the 19th-century biographers, the kind who believe that the life of a great or powerful man deserves not just a slim volume, or even a fat one, but a whole shelf full… Caro once spent several nights alone in a sleeping bag in the Texas Hill Country (where Johnson was from) so he could understand what rural isolation felt like there.</p>
+
+<p>Insanity.</p>
+
+<p>The second is Shaun Inman's, who has been on a tear lately by first releasing <a href="http://shauninman.com/lastrocket/">The Last Rocket</a> for iOS and just this past weekend participating in antoher <a href="http://www.ludumdare.com/">Ludum Dare</a> competition, where the goal is to create a fully playable game in 72 hours. He writes about <a href="http://www.shauninman.com/archive/2012/04/24/millinaut_postmortem">the process here</a>:
+&gt; Ludum Dare is always a rewarding experience. You have a deadline and a direction and 48 (or 72) hours to see where they take you. At the end of the weekend you have something that didn’t exist before. It’s simultaneously exhausting and rejuvenating.</p>
+
+<p>Also, insanity. There's something to be said about both the similarity of both of these things. The first is a slow burn, while the other burns so bright and so fast. I don't know which is better, and does it really matter?</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/04/25/neue-haas.html,
+     "title": Neue Haas Grotesk,
+     "content_html": <p>The Font Bureau put together a nice <a href="http://www.fontbureau.com/NHG/">promo site</a> for Neue Haas Grotesk.
+&gt; The digital version of Helvetica that everyone knows and uses today is quite different from the typeface’s pre-digital design from 1957. Originally released as Neue Haas Grotesk, many of the features that made it a Modernist favorite have been lost in translation over the years from one typesetting technology to the next.</p>
+
+<p>Great brochure site and resource for anyone interested in typography.</p>
+,
+     "url": http://ryanmerrill.net/2012/04/25/neue-haas.html,
+     "content_html": <p>The Font Bureau put together a nice <a href="http://www.fontbureau.com/NHG/">promo site</a> for Neue Haas Grotesk.
+&gt; The digital version of Helvetica that everyone knows and uses today is quite different from the typeface’s pre-digital design from 1957. Originally released as Neue Haas Grotesk, many of the features that made it a Modernist favorite have been lost in translation over the years from one typesetting technology to the next.</p>
+
+<p>Great brochure site and resource for anyone interested in typography.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/04/25/expecting-praise.html,
+     "title": Don't Expect Praise,
+     "content_html": <p>When doing work, you shouldn't do so just for the outcome of praise alone. And you should never expect applause. <a href="http://sethgodin.typepad.com/seths_blog/2012/04/dont-expect-applause.html">Seth Godin writes:</a>
+&gt; Who decides if your work is good? When you are at your best, you do. If the work doesn't deliver on its purpose, if the pot you made leaks or the hammer your forged breaks, then you should learn to make a better one… If it's finished, the applause, the thanks, the gratitude are something else. Something extra and not part of what you created. To play a beautiful song for two people or a thousand is the same song, and the amount of thanks you receive isn't part of that song.</p>
+,
+     "url": http://ryanmerrill.net/2012/04/25/expecting-praise.html,
+     "content_html": <p>When doing work, you shouldn't do so just for the outcome of praise alone. And you should never expect applause. <a href="http://sethgodin.typepad.com/seths_blog/2012/04/dont-expect-applause.html">Seth Godin writes:</a>
+&gt; Who decides if your work is good? When you are at your best, you do. If the work doesn't deliver on its purpose, if the pot you made leaks or the hammer your forged breaks, then you should learn to make a better one… If it's finished, the applause, the thanks, the gratitude are something else. Something extra and not part of what you created. To play a beautiful song for two people or a thousand is the same song, and the amount of thanks you receive isn't part of that song.</p>
+
+   }
+   {
+     "id": http://ryanmerrill.net/2012/04/24/updated.html,
+     "title": All the Cool Kids,
+     "content_html": <p>All the <a href="http://www.marco.org/secondcrack">cool</a> <a href="http://mattgemmell.com/">kids</a> have switched to static sites, so I figured it was my time, too.</p>
+
+<p>I simplified the design some, but kept a lot the same. I'm using <a href="http://middlemanapp.com/">Middleman</a> to generate the static site and using <a href="http://pages.github.com/">Github Pages</a> for hosting. There's a few things that are messy around here, so please excuse any errors.</p>
+
+<p>Just wanted to send an update in case anyone saw some weird stuff going on lately. Long follow-up post explaining my setup coming soon.</p>
+,
+     "url": http://ryanmerrill.net/2012/04/24/updated.html,
+     "content_html": <p>All the <a href="http://www.marco.org/secondcrack">cool</a> <a href="http://mattgemmell.com/">kids</a> have switched to static sites, so I figured it was my time, too.</p>
+
+<p>I simplified the design some, but kept a lot the same. I'm using <a href="http://middlemanapp.com/">Middleman</a> to generate the static site and using <a href="http://pages.github.com/">Github Pages</a> for hosting. There's a few things that are messy around here, so please excuse any errors.</p>
+
+<p>Just wanted to send an update in case anyone saw some weird stuff going on lately. Long follow-up post explaining my setup coming soon.</p>
+
+   }
+  ]
+}
