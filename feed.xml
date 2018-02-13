@@ -5,10 +5,33 @@
   <id>http://ryanmerrill.net/</id>
   <link href="http://ryanmerrill.net/"/>
   <link href="http://ryanmerrill.net/feed.xml" rel="self"/>
-  <updated>2017-05-17T12:21:00-04:00</updated>
+  <updated>2018-02-13T07:00:00-05:00</updated>
   <author>
     <name>Ryan Merrill</name>
   </author>
+  <entry>
+    <title>Accessibility Basics for Developers</title>
+    <link rel="alternate" href="http://ryanmerrill.net/2018/02/13/accessibility.html"/>
+    <id>http://ryanmerrill.net/2018/02/13/accessibility.html</id>
+    <published>2018-02-13T07:00:00-05:00</published>
+    <updated>2018-02-13T16:40:45-05:00</updated>
+    <author>
+      <name>RCM</name>
+    </author>
+    <content type="html">&lt;p&gt;It's common to think that web accessibility only applies to screen readers and blind users, but the reality is much larger and more nuanced. With close to 25 percent of adults in the United States having some sort of disability, it's something too valuable to ignore. Breaking down accessibility into physical and environmental impairments can help us emphasize with our users' diverse abilities.&lt;/p&gt;
+
+&lt;p&gt;We can separate physical disabilities into four buckets: vision, auditory, cognitive, and motor. These exist on a spectrum. A vision impairment could be something rudimentary such as having one's pupils dilated or as severe as a complete loss of eyesight. Whereas a motor impairment could be a broken arm or something more serious such as complete paralysis.&lt;/p&gt;
+
+&lt;p&gt;We also need to keep in mind environmental factors. Users might be accessing the site in bright sunlight, watching a video in a loud or quiet environment, or visiting a site on low bandwidth. Developing with accessibility in mind also boosts the experience for everyone by ensuring there is more thought put into usability, simpler UI interactions, and enhanced features such as keyboard navigation.&lt;/p&gt;
+
+&lt;p&gt;There are some quick and easy things developers and designers can do to improve accessibility. Using &lt;a href="https://webaim.org/techniques/alttext/"&gt;proper alt text on image tags&lt;/a&gt;, &lt;a href="https://webaim.org/techniques/skipnav/"&gt;providing a skip navigation link&lt;/a&gt;, &lt;a href="https://webaim.org/resources/contrastchecker/"&gt;designing with a correct contrast ratio&lt;/a&gt;, and &lt;a href="https://dequeuniversity.com/assets/html/jquery-summit/html5/slides/landmarks.html"&gt;writing semantic markup&lt;/a&gt; are all low hanging fruit waiting to be tackled. Occam and Canon are supporting WCAG Level A accessibility standards, but are striving for AA to reach the greatest number of users. A human-readable checklist for each level can be found &lt;a href="https://wuhcag.com/wcag-checklist/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are tools available to help test a site's accessibility:
+	* &lt;a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US"&gt;Wave is a Chrome extension&lt;/a&gt; will evaluate web accessibility of your site within the browser
+	* VoiceOver for Mac (FN+CMD+F5) is a built-in screen reader
+	* &lt;a href="https://leaverou.github.io/contrast-ratio/"&gt;Contrast Ratio Checker&lt;/a&gt; will tell you the contrast between 2 color hex values to ensure they meet requirements&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Tips for Remote Work</title>
     <link rel="alternate" href="http://ryanmerrill.net/2017/05/17/remote.html"/>
@@ -201,55 +224,6 @@ helper method fixed that:&lt;/p&gt;
 &lt;/pre&gt;
 
 &lt;p&gt;It was just a matter of passing the blog's articles to the helper to finish building the site's navigation.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Learning and Writing Swift</title>
-    <link rel="alternate" href="http://ryanmerrill.net/2014/06/09/learning-swift.html"/>
-    <id>http://ryanmerrill.net/2014/06/09/learning-swift.html</id>
-    <published>2014-06-09T15:28:00-04:00</published>
-    <updated>2017-05-18T14:53:59-04:00</updated>
-    <author>
-      <name>RCM</name>
-    </author>
-    <content type="html">&lt;p&gt;There’s no doubt to be a glut of want-to-be iOS developers clamoring for resources to learn Swift after Apple’s announcement of the language last week at WWDC. Count me among them.&lt;/p&gt;
-
-&lt;p&gt;As someone who for years wanted to dip their toes into the waters of iOS development, the time doesn’t seem better than now to give it a go. I compiled the best Swift-language resources I’ve found below.&lt;/p&gt;
-
-&lt;h3 id="sample-apps"&gt;Sample Apps&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://github.com/fullstackio/FlappySwift"&gt;FlappySwift - FlappyBird in Swift&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/mslathrop/SwiftNote"&gt;SwiftNote - Simple note taking app with today widget and iCloud syncing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="official-apple-resources"&gt;Official Apple Resources&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://itunes.apple.com/us/book/swift-programming-language/id881256329"&gt;Swift iBook&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://developer.apple.com/library/prerelease/ios/referencelibrary/GettingStarted/LandingPage/index.html#//apple_ref/doc/uid/TP40014345"&gt;Welcome to Swift&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="people-who-talk-about-swift"&gt;People who talk about Swift&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/clattner_llvm"&gt;Chris Lattner&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="apple-nda-demos-linked-on-github"&gt;Apple NDA Demos linked on Github&lt;/h3&gt;
-&lt;p&gt;I’m not sure whether or not these demos fall under an NDA restriction or not, but I found them on Github so grab them while you can.
-* &lt;a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/ListerAProductivityAppBuiltinSwift"&gt;Lister: A Productivity App Built in Swift&lt;/a&gt;
-* &lt;a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/UICatalogCreatingandCustomizingUIKitControlsinSwift"&gt;UICatalog: Creating and Customizing UIKit Controls in Swift&lt;/a&gt;
-* &lt;a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/AdventureBuildingaSpriteKitgameusingSwift"&gt;Adventure: Building a SpriteKit Game Using Swift&lt;/a&gt;
-* &lt;a href="https://github.com/Lax/iOS-Swift-Demos/tree/master/GestureRecognizersUsingstandardUIGestureRecognizers"&gt;GestureRecognizers: Using standard UIGestureRecognizers in Swift&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id="misc-resources"&gt;Misc. Resources&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="http://chares.ghost.io/lets-make-a-swift-app/"&gt;Lets Make a Swift App&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.weheartswift.com/"&gt;We Heart Swift&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://jamesonquave.com/blog/developing-ios-apps-using-swift-tutorial/"&gt;Developing iOS Apps Using Swift Tutorial&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.learnswift.tips/"&gt;Learn Swift - A curated list of helpful resources to learn Swift.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/grant/swift-cheat-sheet"&gt;Swift Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://stackoverflow.com/questions/tagged/swift-language"&gt;Stackoverflow’s Swift Questions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 </content>
   </entry>
 </feed>
