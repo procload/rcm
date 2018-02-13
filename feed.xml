@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://ryanmerrill.net/2018/02/13/accessibility.html"/>
     <id>http://ryanmerrill.net/2018/02/13/accessibility.html</id>
     <published>2018-02-13T07:00:00-05:00</published>
-    <updated>2018-02-13T16:42:43-05:00</updated>
+    <updated>2018-02-13T16:43:10-05:00</updated>
     <author>
       <name>RCM</name>
     </author>
@@ -26,10 +26,13 @@
 
 &lt;p&gt;There are some quick and easy things developers and designers can do to improve accessibility. Using &lt;a href="https://webaim.org/techniques/alttext/"&gt;proper alt text on image tags&lt;/a&gt;, &lt;a href="https://webaim.org/techniques/skipnav/"&gt;providing a skip navigation link&lt;/a&gt;, &lt;a href="https://webaim.org/resources/contrastchecker/"&gt;designing with a correct contrast ratio&lt;/a&gt;, and &lt;a href="https://dequeuniversity.com/assets/html/jquery-summit/html5/slides/landmarks.html"&gt;writing semantic markup&lt;/a&gt; are all low hanging fruit waiting to be tackled. Occam and Canon are supporting WCAG Level A accessibility standards, but are striving for AA to reach the greatest number of users. A human-readable checklist for each level can be found &lt;a href="https://wuhcag.com/wcag-checklist/"&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;There are tools available to help test a site's accessibility:
-* &lt;a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US"&gt;Wave is a Chrome extension&lt;/a&gt; that will evaluate web accessibility of your site within the browser
-* VoiceOver for Mac (FN+CMD+F5) is a built-in screen reader
-* &lt;a href="https://leaverou.github.io/contrast-ratio/"&gt;Contrast Ratio Checker&lt;/a&gt; will tell you the contrast between 2 color hex values to ensure they meet requirements&lt;/p&gt;
+&lt;p&gt;There are tools available to help test a site's accessibility:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US"&gt;Wave is a Chrome extension&lt;/a&gt; that will evaluate web accessibility of your site within the browser&lt;/li&gt;
+  &lt;li&gt;VoiceOver for Mac (FN+CMD+F5) is a built-in screen reader&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://leaverou.github.io/contrast-ratio/"&gt;Contrast Ratio Checker&lt;/a&gt; will tell you the contrast between 2 color hex values to ensure they meet requirements&lt;/li&gt;
+&lt;/ul&gt;
 </content>
   </entry>
   <entry>
