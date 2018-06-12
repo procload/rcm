@@ -7,10 +7,10 @@ Event though I’m not doing any iOS design these days, I still try to keep up w
 
 Here are a few that caught my eye:
 
-\* \[Creating Great AR Experiences\](https://developer.apple.com/videos/play/wwdc2018/805/)
+* [Creating Great AR Experiences\](https://developer.apple.com/videos/play/wwdc2018/805/)
 
-\* \[Intentional Design\](https://developer.apple.com/videos/play/wwdc2018/802/)
+* [Intentional Design\](https://developer.apple.com/videos/play/wwdc2018/802/)
 
-\* \[Presenting Design Work\](https://developer.apple.com/videos/play/wwdc2018/811/)
+* [Presenting Design Work\](https://developer.apple.com/videos/play/wwdc2018/811/)
 
-\* \[The Life of a Button\](https://developer.apple.com/videos/play/wwdc2018/804/)
+* [The Life of a Button\](https://developer.apple.com/videos/play/wwdc2018/804/)
