@@ -5,28 +5,57 @@
   <id>http://ryanmerrill.net/</id>
   <link href="http://ryanmerrill.net/"/>
   <link href="http://ryanmerrill.net/feed.xml" rel="self"/>
-  <updated>2018-02-13T07:00:00-05:00</updated>
+  <updated>2018-06-12T09:10:28-04:00</updated>
   <author>
     <name>Ryan Merrill</name>
   </author>
+  <entry>
+    <title>WWDC Design Sessions</title>
+    <link rel="alternate" href="http://ryanmerrill.net/2018/06/12/wwdc-design-sessions.html"/>
+    <id>http://ryanmerrill.net/2018/06/12/wwdc-design-sessions.html</id>
+    <published>2018-06-12T09:10:28-04:00</published>
+    <updated>2018-06-12T09:16:55-04:00</updated>
+    <author>
+      <name>RCM</name>
+    </author>
+    <content type="html">&lt;p&gt;Event though I’m not doing any iOS design these days, I still try to keep up with what’s happening at Apple’s WWDC. Each year they tend to create more and more design related sessions and this year is no different.&lt;/p&gt;
+
+&lt;p&gt;Here are a few that caught my eye:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href="https://developer.apple.com/videos/play/wwdc2018/805/"&gt;Creating Great AR Experiences&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href="https://developer.apple.com/videos/play/wwdc2018/802/"&gt;Intentional Design&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href="https://developer.apple.com/videos/play/wwdc2018/811/"&gt;Presenting Design Work&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href="https://developer.apple.com/videos/play/wwdc2018/804/"&gt;The Life of a Button&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Accessibility Basics for Developers</title>
     <link rel="alternate" href="http://ryanmerrill.net/2018/02/13/accessibility.html"/>
     <id>http://ryanmerrill.net/2018/02/13/accessibility.html</id>
     <published>2018-02-13T07:00:00-05:00</published>
-    <updated>2018-02-13T16:44:02-05:00</updated>
+    <updated>2018-04-20T15:57:44-04:00</updated>
     <author>
       <name>RCM</name>
     </author>
-    <content type="html">&lt;p&gt;It's common to think that web accessibility only applies to screen readers and blind users, but the reality is much larger and more nuanced. With close to 25 percent of adults in the United States having some sort of disability, it's something too valuable to ignore. Breaking down accessibility into physical and environmental impairments can help us emphasize with our users' diverse abilities.&lt;/p&gt;
+    <content type="html">&lt;p&gt;It’s common to think that web accessibility only applies to screen readers and blind users, but the reality is much larger and more nuanced. With close to 25 percent of adults in the United States having some sort of disability, it’s something too valuable to ignore. Breaking down accessibility into physical and environmental impairments can help us emphasize with our users’ diverse abilities.&lt;/p&gt;
 
-&lt;p&gt;We can separate physical disabilities into four buckets: vision, auditory, cognitive, and motor. These exist on a spectrum. A vision impairment could be something rudimentary such as having one's pupils dilated or as severe as a complete loss of eyesight. Whereas a motor impairment could be a broken arm or something more serious such as complete paralysis.&lt;/p&gt;
+&lt;p&gt;We can separate physical disabilities into four buckets: vision, auditory, cognitive, and motor. These exist on a spectrum. A vision impairment could be something rudimentary such as having one’s pupils dilated or as severe as a complete loss of eyesight. Whereas a motor impairment could be a broken arm or something more serious such as complete paralysis.&lt;/p&gt;
 
 &lt;p&gt;We also need to keep in mind environmental factors. Users might be accessing the site in bright sunlight, watching a video in a loud or quiet environment, or visiting a site on low bandwidth. Developing with accessibility in mind also boosts the experience for everyone by ensuring there is more thought put into usability, simpler UI interactions, and enhanced features such as keyboard navigation.&lt;/p&gt;
 
 &lt;p&gt;There are some quick and easy things developers and designers can do to improve accessibility. Using &lt;a href="https://webaim.org/techniques/alttext/"&gt;proper alt text on image tags&lt;/a&gt;, &lt;a href="https://webaim.org/techniques/skipnav/"&gt;providing a skip navigation link&lt;/a&gt;, &lt;a href="https://webaim.org/resources/contrastchecker/"&gt;designing with a correct contrast ratio&lt;/a&gt;, and &lt;a href="https://dequeuniversity.com/assets/html/jquery-summit/html5/slides/landmarks.html"&gt;writing semantic markup&lt;/a&gt; are all low hanging fruit waiting to be tackled. Occam and Canon are supporting WCAG Level A accessibility standards, but are striving for AA to reach the greatest number of users. A human-readable checklist for each level can be found &lt;a href="https://wuhcag.com/wcag-checklist/"&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;There are tools available to help test a site's accessibility:&lt;/p&gt;
+&lt;p&gt;There are tools available to help test a site’s accessibility:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US"&gt;Wave is a Chrome extension&lt;/a&gt; that will evaluate web accessibility of your site within the browser&lt;/li&gt;
@@ -44,12 +73,12 @@
     <author>
       <name>RCM</name>
     </author>
-    <content type="html">&lt;p&gt;I recently took a job at &lt;a href="http://8451.com/"&gt;84.51°&lt;/a&gt;, which means I'm no longer working remotely. The three years I did at &lt;a href="http://food52.com"&gt;Food52&lt;/a&gt; were great, but it was time for a change. I wrote-up some notes about how to help make things easier when working remotely.&lt;/p&gt;
+    <content type="html">&lt;p&gt;I recently took a job at &lt;a href="http://8451.com/"&gt;84.51°&lt;/a&gt;, which means I’m no longer working remotely. The three years I did at &lt;a href="http://food52.com"&gt;Food52&lt;/a&gt; were great, but it was time for a change. I wrote-up some notes about how to help make things easier when working remotely.&lt;/p&gt;
 
 &lt;p&gt;Communication is key. I would err on the side of over communicating anything than not. The only times I  regretted working remote was when I felt out of the loop. There were a number of strategies my team took to keep remote employees happy and engaged.&lt;/p&gt;
 
 &lt;h2 id="slack-or-something"&gt;Slack or something&lt;/h2&gt;
-&lt;p&gt;The team needs to feel included in daily activity and as a part of the company culture. One thing that went a far way for me was using Slack on a daily basis with the rest of the company. Despite being only 1 of 8 remote employees in a 70-person company, I often felt connected because using Slack was part of the company's culture even for those in the office.&lt;/p&gt;
+&lt;p&gt;The team needs to feel included in daily activity and as a part of the company culture. One thing that went a far way for me was using Slack on a daily basis with the rest of the company. Despite being only 1 of 8 remote employees in a 70-person company, I often felt connected because using Slack was part of the company’s culture even for those in the office.&lt;/p&gt;
 
 &lt;p&gt;Slack had a great feature that allowed a user to quickly hop on a video or audio call to hash out a problem and to stay connected.&lt;/p&gt;
 
@@ -64,7 +93,7 @@
 &lt;p&gt;I also had weekly 1:1s with my manager over Skype or Slack video. it was important for me to have these and them not be skipped because I sometimes felt out of the loop regarding what was going on at the compnay.&lt;/p&gt;
 
 &lt;h2 id="regular-trips-to-the-office"&gt;Regular Trips to the Office&lt;/h2&gt;
-&lt;p&gt;Since my company was based in NYC, it wasn't easy to get face time with other employees but we made an effort to fly in the remote team to the office every 6 weeks for an entire week. This was usually coupled by a few team dinners or happy hours, which helped bridge the gap between office and remote employee.&lt;/p&gt;
+&lt;p&gt;Since my company was based in NYC, it wasn’t easy to get face time with other employees but we made an effort to fly in the remote team to the office every 6 weeks for an entire week. This was usually coupled by a few team dinners or happy hours, which helped bridge the gap between office and remote employee.&lt;/p&gt;
 
 &lt;p&gt;I often found myself being the most motivated and getting the most done the week following a trip to NYC.&lt;/p&gt;
 
@@ -120,14 +149,14 @@ div class="nr-comment-reply"
       <name>RCM</name>
     </author>
     <content type="html">&lt;p&gt;When designing the upcoming (Not)Recipes app for Food52, I often find myself searching for solutions that other apps have figured out previously and working to combine those into our app. At first I felt guilty of not innovating or becoming too mundane, but a recent quote from an &lt;a href="https://www.quora.com/profile/Wilson-Miner/session/95/?__snids__=1578084650&amp;amp;__nsrc__=4"&gt;interview with Wilson Miner&lt;/a&gt; helped assuage my fears:
-&amp;gt; I think I overvalue "boring" design solutions relative to most other designers. And I don't mean I value simple solutions – I think that's pretty common – I mean boring: unexciting, nondescript, dull. I usually gravitate to and in teams often end up championing the most mundane solutions.&lt;/p&gt;
+&amp;gt; I think I overvalue “boring” design solutions relative to most other designers. And I don’t mean I value simple solutions – I think that’s pretty common – I mean boring: unexciting, nondescript, dull. I usually gravitate to and in teams often end up championing the most mundane solutions.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;One of my favorite quotes about design is attributed to Charles Eames: "Innovate as a last resort. More horrors are done in the name of innovation than any other."&lt;/p&gt;
+  &lt;p&gt;One of my favorite quotes about design is attributed to Charles Eames: “Innovate as a last resort. More horrors are done in the name of innovation than any other.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;I think it's natural as designers to feel like reusing an existing solution is somehow cheating or more likely just a missed opportunity to show our skill. But in my experience the more "innovative" solution often brings more value to the designer than it does to the product or the end-user.&lt;/p&gt;
+  &lt;p&gt;I think it’s natural as designers to feel like reusing an existing solution is somehow cheating or more likely just a missed opportunity to show our skill. But in my experience the more “innovative” solution often brings more value to the designer than it does to the product or the end-user.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
@@ -169,64 +198,6 @@ div class="nr-comment-reply"
 &lt;p&gt;&lt;img alt="Tab bar" src="/images/2016/02/25/tabbar.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;We also adjusted the height of the navigation bar to reflect what it will look like on launch. Remember to set the Auto Layout constraints on both the tab bar and nav bar in order to keep things looking good on all device sizes.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Custom collections with Middleman</title>
-    <link rel="alternate" href="http://ryanmerrill.net/2014/07/25/custom-collections.html"/>
-    <id>http://ryanmerrill.net/2014/07/25/custom-collections.html</id>
-    <published>2014-07-25T17:10:00-04:00</published>
-    <updated>2017-05-18T14:53:59-04:00</updated>
-    <author>
-      <name>RCM</name>
-    </author>
-    <content type="html">&lt;p&gt;This site is based on the static-site generator Middleman, which has served
-me well over the years.&lt;/p&gt;
-
-&lt;p&gt;I had the opportunity to work on creating a blog that needed navigation to be built
-using dynamic category names defined by an author when creating a new post. The category name
-is stored in the article's front matter like so:&lt;/p&gt;
-
-&lt;pre class="prettyprint ruby"&gt;
----
-title: My Second Test
-date: 2014-07-25 20:16 UTC
-category: design
-author: Ryan Merrill
-tags: development, programming, swift
-summary: This is the summary
----
-&lt;/pre&gt;
-
-&lt;p&gt;Middleman's blog extension comes built with tagging ability, but didn't offer support for categories.
-Fortunately you can create custom collections easily:&lt;/p&gt;
-
-&lt;pre class="prettyprint ruby"&gt;
-activate :blog do |blog|
-  blog.custom_collections = {
-    category: {
-      link: '/categories/{category}.html',
-      template: '/category.html'
-    }
-  }
-end
-&lt;/pre&gt;
-
-&lt;p&gt;After that, I needed to find all of the categories defined by the author to build the navigation. A handy
-helper method fixed that:&lt;/p&gt;
-
-&lt;pre class="prettyprint ruby"&gt;
-  def build_categories(articles)
-    categories = []
-    articles.each do |article|
-      category = article.metadata[:page]['category']
-      categories.push(category) unless categories.include? category
-    end
-    return categories
-  end
-&lt;/pre&gt;
-
-&lt;p&gt;It was just a matter of passing the blog's articles to the helper to finish building the site's navigation.&lt;/p&gt;
 </content>
   </entry>
 </feed>
