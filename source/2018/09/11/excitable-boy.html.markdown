@@ -1,7 +1,7 @@
 ---
 title: Excitable Boy
-tags: 'zevon, music, grateful dead'
-date: 09/11/2018 9:30 AM
+tags:
+date: 2018-09-11T09:30:28.645Z
 ---
 It's fall, which means the heady summer days of listening almost nonstop to the Grateful Dead are slowing down only to be supplanted with artists who are a bit more melancholy.
 
