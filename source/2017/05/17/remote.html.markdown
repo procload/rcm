@@ -4,6 +4,9 @@ date: 2017-05-17 16:21 UTC
 tags: remote, work, 8451, Food52, working
 ---
 
+ %Y-%m-%e %H:%M:%S %Z
+%a, %e %b %Y %H:%M:%S %z
+
 I recently took a job at [84.51°](http://8451.com/), which means I'm no longer working remotely. The three years I did at [Food52](http://food52.com) were great, but it was time for a change. I wrote-up some notes about how to help make things easier when working remotely.
 
 Communication is key. I would err on the side of over communicating anything than not. The only times I  regretted working remote was when I felt out of the loop. There were a number of strategies my team took to keep remote employees happy and engaged.
