@@ -1,7 +1,7 @@
 ---
 title: Bringing Design to Software
 tags: 'ui, ux, hci, design'
-date: 2019-01-11T03:11:40.042Z
+date: 2019-01-11T03:20:40.042Z
 ---
   Stumbled across [this essay from Mitchell
   Kapor](https://hci.stanford.edu/publications/bds/1-kapor.html) published in
