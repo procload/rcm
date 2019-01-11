@@ -1,7 +1,7 @@
 ---
 title: Bringing Design to Software
-tags: 'ui, hci, ux, design'
-date: 2019-01-11T02:05:15.881Z
+tags: 'ui, ux, design, hci'
+date: 2019-01-11T02:35:00.000Z
 ---
 Stumbled across [this essay from Mitchell Kapor](https://hci.stanford.edu/publications/bds/1-kapor.html) published in Terry Winograd’s Bringing Design to Software. Despite being nearly 30 years old, it’s crazy how relevant it still is.
 
