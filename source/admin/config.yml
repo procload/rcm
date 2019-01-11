@@ -6,8 +6,6 @@ backend:
 media_folder: "source/images" # Folder where user uploaded files should go
 public_folder: "source" # CMS now knows 'source' is the public folder and will strip this from the path
 
-publish_mode: editorial_workflow
-
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
@@ -15,7 +13,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}/{{month}}/{{day}}/{{slug}}"
     extension: "html.markdown"
-    format: "yaml-frontmatter"
+    format: "yaml"
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tags", name: "tags", widget: "string"}
