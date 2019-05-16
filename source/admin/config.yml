@@ -14,7 +14,6 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{title}}"
     format: "frontmatter"
     extension: "html.markdown"
-    format: "markdown"
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tags", name: "tags", widget: "string"}
