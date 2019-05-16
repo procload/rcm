@@ -9,9 +9,9 @@ extension: "markdown"
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "source" # The path to the folder where the documents are stored
+    folder: "source/posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}/{{month}}/{{day}}/{{slug}}"
+    slug: "{{title}}"
     format: "frontmatter"
     extension: "html.markdown"
     fields: # The fields each document in this collection have
