@@ -10,11 +10,10 @@
   "items": [
   <% blog.articles.each do |article| %>
    {
-     "id": <%= article_url(article) %>,
-     "title": <%= article.title %>,
-     "content_html": <%= article.body %>,
-     "url": <%= article_url(article) %>,
-     "content_html": <%= article.body.to_json %>
+     "id": "<%= article_url(article) %>",
+     "title": "<%= article.title %>",
+     "content_html": "<%= article.body %>",
+     "url": "<%= article_url(article) %>"
    }
   <% end %>
   ]
