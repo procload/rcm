@@ -1,11 +1,11 @@
 {
   "version": "https://jsonfeed.org/version/1",
-  "title": "",
-  "home_page_url": "",
-  "feed_url": "",
-  "description": "",
+  "title": "Ryan Clark Merrill",
+  "home_page_url": "https://ryanmerrill.net/",
+  "feed_url": "https://ryanmerrill.net/feed.json",
+  "description": "I am a hungry designer and developer working and living in Cincinnati, Ohio. I like my friends old, my music loud and my work tough.",
   "icon": "",
-  "favicon": "",
+  "favicon": "https://ryanmerrill.net/favicon-32x32.png?v=8jebEpyaEe",
   "expired": false,
   "items": [
   <% blog.articles.each do |article| %>
@@ -14,7 +14,7 @@
      "title": <%= article.title %>,
      "content_html": <%= article.body %>,
      "url": <%= article_url(article) %>,
-     "content_html": <%= article.body %>
+     "content_html": <%= article.body.to_json %>
    }
   <% end %>
   ]
