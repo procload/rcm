@@ -13,37 +13,36 @@
 //   Variables
 // -------------------------------------
 
-
 // Colors
 // --------------------------
-$brand-primary:       #477DCA;
-$brand-secondary:     #5F8C93;
-$brand-tertiary:      #AB977D;
+$brand-primary: #477dca;
+$brand-secondary: #5f8c93;
+$brand-tertiary: #ab977d;
 
-$alert:               #FFE84A;
-$error:               #FF0005;
-$warning:             $alert;
-$success:             #DFF0D8;
+$alert: #ffe84a;
+$error: #ff0005;
+$warning: $alert;
+$success: #dff0d8;
 
-$link-color:          #6AA7CF;
+$link-color: #6aa7cf;
 
-$white:               #FFF;
-$gray:                #555;
-$gray-light:          #EAEAEA;
-$gray-lighter:        #F7F7F7;
-$black:               #090A0E; // Never use #000 for black (http://ianstormtaylor.com/design-tip-never-use-black/)
+$white: #fff;
+$gray: #555;
+$gray-light: #eaeaea;
+$gray-lighter: #f7f7f7;
+$black: #090a0e; // Never use #000 for black (http://ianstormtaylor.com/design-tip-never-use-black/)
 
-$text-color:          $gray;
-$background-color:    $white;
+$text-color: $gray;
+$background-color: $white;
 
 // Fonts
 // --------------------------
 //
 
-$base-font-size:          16px;
-$base-line-height:        1.5;
-$font-family-sans-serif:  "ff-meta-web-pro-1","ff-meta-web-pro-2", verdana, sans-serif;
-$font-family-mono:        "fira-mono-1", "fira-mono-2", monospace;
-$font-family-serif:       'Chronicle SSm A', 'Chronicle SSm B', georgia, serif;
-$font-family-base:        $font-family-sans-serif;
-$font-family-headings:    $font-family-sans-serif;
+$base-font-size: 16px;
+$base-line-height: 1.5;
+$font-family-sans-serif: "Fira Sans", sans-serif;
+$font-family-mono: "Fira Code", monospace;
+$font-family-serif: "Chronicle SSm A", "Chronicle SSm B", georgia, serif;
+$font-family-base: $font-family-sans-serif;
+$font-family-headings: $font-family-sans-serif;
