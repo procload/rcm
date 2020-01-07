@@ -10,7 +10,7 @@
   "items": [
   <% blog.articles.each do |article| %>
    {
-     "id": "<%= article_url(article) %>",
+     "id": "<%= (0..16).to_a.map{|a| rand(16).to_s(16)}.join %>",
      "title": "<%= article.title %>",
      "content_html": "<%= article.body %>",
      "url": "<%= article_url(article) %>"
